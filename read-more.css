@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+header{
+    position: fixed;
+    width: 100%;
+    height: 13vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    transition: 0.6s;    
+    z-index: 100000;
+    border-bottom: 1px solid linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1));
+    background: linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1));
+}
+header>.fa-bars{
+    position: absolute;
+    left: 50vw;
+    font-size: 40px;
+    color: #fff;
+    display: none;
+}
+header>.fa-times{
+    position: absolute;
+    left: 50vw;
+    font-size: 40px;
+    color: #fff;
+    display: none;
+    cursor: pointer;
+}
+header>.order-list{
+    position: absolute;
+    top: 13vh;
+    left: 0;
+    width: 200px;
+    line-height: 10px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1));
+    display: none;
+    transition: all 2s ease-in;
+}
+header>.order-list>hr{
+    width: 100%;
+}
+header>ul{
+    position: relative;
+    top: 1vh;
+    left: 2vw;
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    justify-content: center;
+}
+header>ul>li{
+    position: relative;
+    list-style: none;
+    font-size: 13px;
+    background-color: transparent;
+    padding: 25px 20px;
+    transition: all 0.5s ease-out;
+}
+header>ul>li:hover{
+    background-color: rgba(0,0,0,.5);
+}
+header>ul>li>a{
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+}
+.begin{
+    position: relative;
+    height:130vh;
+    width: 100%;
+}
+.begin>.start{
+    position: absolute;
+    top: 20vh;
+    left: 5vw;
+    background-color: linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1));
+    width: 85%;
+    height: 7vh;
+    border: 1px solid linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1)) ;
+    border-radius: 5px;
+}
+.begin>.start>h3{
+    margin-top: 0.95vh;
+    color: #fff;
+    text-indent: 1.5vw;
+}
+.begin>.text{
+    position: absolute;
+    top: 30vh;
+    left: 5.5vw;
+    width: 85%;
+}
+.begin>.style{
+    position: absolute;
+    top: 100vh;
+    left: 40vw;
+}
+.begin>.style>h5{
+    font-size: 20px;
+    position: relative;
+}
+.begin>.style>h5::before{
+    content: "";
+    width: 120px;
+    height: 2px;
+    display: block;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: -10vw;
+}
+.begin>.style>h5::after{
+    content: "";
+    width: 120px;
+    height: 2px;
+    display: block;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    right: -10vw;
+}
+/*CHAT GPT CODE OF SLIDER*/
+.check {
+    position: relative;
+    height: 650vh;
+  }
+  
+  .check > .slider-container {
+    position: absolute;
+    top: 15vh;
+    left: 8vw;
+    width: 71%;
+    height: 80vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s;
+  }
+  
+  .slider-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .slider-btn {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .slider-btn-left {
+    left: 0;
+  }
+  
+  .slider-btn-right {
+    right: 0;
+  }
+  .check > .heading {
+    position: absolute;
+    top:0;
+    left: 2vw;
+    color: #000; /* Change text color to make it visible on the dark background */ /* Adjust the font size as needed */
+  }
+  /*now it is the second div of the slider being started*/
+  .check > .matchup {
+    position: absolute;
+    top: 120vh;
+    left: 8vw;
+    width: 71%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.more {
+    display: flex;
+    transition: transform 0.5s;
+}
+.more-image{
+  width: 100%;
+  object-fit:fill;
+}
+.goter-btn {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.slider-btn-left-1 {
+    left: 0;
+}
+
+.slider-btn-right-1 {
+    right: 0;
+}
+
+.check > .heading-1 {
+    position: absolute;
+    top: 105vh;
+    left: 2vw;
+    color: #000;
+}
+/*the third slider starts form here*/
+.check > .doup {
+    position: absolute;
+    top: 225vh;
+    left: 8vw;
+    width: 71%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.lore {
+    display: flex;
+    transition: transform 0.5s;
+}
+.lore-image{
+  width: 100%;
+  object-fit:contain;
+}
+.loter-btn {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.slider-btn-left-2 {
+    left: 0;
+}
+
+.slider-btn-right-2 {
+    right: 0;
+}
+
+.check > .heading-2 {
+    position: absolute;
+    top: 210vh;
+    left: 2vw;
+    color: #000;
+}
+/*the fourth slider of the image slider*/
+.check > .doun {
+    position: absolute;
+    top: 330vh;
+    left: 8vw;
+    width: 71%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.tore {
+    display: flex;
+    transition: transform 0.5s;
+}
+.tore-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.lotar-btn {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.slider-btn-left-3 {
+    left: 0;
+}
+
+.slider-btn-right-3 {
+    right: 0;
+}
+
+.check > .heading-3 {
+    position: absolute;
+    top: 315vh;
+    left: 2vw;
+    color: #000;
+}
+/*Fifth and the seond last of the images*/
+.check > .dout {
+    position: absolute;
+    top: 435vh;
+    left: 8vw;
+    width: 71%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.pore {
+    display: flex;
+    transition: transform 0.5s;
+}
+.pore-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.letar-btn {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.slider-btn-left-4 {
+    left: 0;
+}
+
+.slider-btn-right-4 {
+    right: 0;
+}
+.check > .heading-4 {
+    position: absolute;
+    top: 420vh;
+    left: 2vw;
+    color: #000;
+}
+/*last image of the lsider and we are in peace*/
+.check > .douw {
+    position: absolute;
+    top: 540vh;
+    left: 8vw;
+    width: 71%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.jore {
+    display: flex;
+    transition: transform 0.5s;
+}
+.jore-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.letor-btn {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.slider-btn-left-5 {
+    left: 0;
+}
+
+.slider-btn-right-5 {
+    right: 0;
+}
+.check > .heading-5 {
+    position: absolute;
+    top: 525vh;
+    left: 2vw;
+    color: #000;
+}
+/*footer starts*/
+.footer{
+    position: relative;
+    height: 70vh;
+    background:linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1));
+}
+.footer>.extract{
+    position: absolute;
+    top: 5vh;
+   left: 5vw;
+    display: flex;
+    gap: 10vw;
+}
+.footer>.extract>.quick-links>ul{
+    position: absolute;
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.quick-links>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.extract>.social>ul{
+    position: absolute;
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.social>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.extract>.top>ul{
+    position: absolute;
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.top>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.extract>.location>ul{
+    position: absolute;
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.location>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.footer-imp{
+    position: absolute;
+    top: 60vh;
+    background-color: linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1));
+    border: 1px solid white;
+    height: 9.75vh;
+    width: 100%;
+}
+.footer>.footer-imp>p{
+    margin-top: 3vh;
+    text-align: center;
+    color: #ffff;
+}

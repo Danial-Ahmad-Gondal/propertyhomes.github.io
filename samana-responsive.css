@@ -1,0 +1,990 @@
+@media (min-width:280px) and (max-width:320px){
+    header>.unorder-list{
+        display: none;
+    }
+header>.fa-bars{
+    display: block;
+    cursor: pointer;
+    margin-left: 35vw;
+}
+header>.fa-times{
+    cursor: pointer;
+    margin-left: 35vw;
+}
+header{
+    position: absolute;
+    width: 100%;
+    height: 13vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    transition: 0.6s;    
+    z-index: 100000;
+    border-bottom: 1px solid gainsboro;
+}
+header>.order-list{
+    display: none;
+}
+header>.unorder-list{
+    display: none;
+}
+.page{
+    height: 140vh;
+}
+.page>.hard>h1{
+    font-size: 20px;
+    margin-left: 1vw;
+}
+.what{
+    height:650vh;
+}
+.what>.soft>h1{
+    margin-left: 1vw;
+    font-size: 20px;
+}
+.what>.space>.fill{
+    margin-left: 7.25vw;
+    width: 80vw;
+    height: 50vh;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+}
+.this{
+    height: 100vh;
+}
+.this>.that>h1{
+    font-size: 24px;
+    margin-left: 5.5vw;
+}
+.this>.that>.video{
+    margin-left: -2vw;
+    width: 90vw;
+    height: 300px;
+    object-fit: contain;
+}
+.line-1{
+    display: block;
+}
+.make{
+    position: relative;
+    height: 120vh;
+}
+.make>.job>h1{
+    margin-left: 0vw;
+    font-size: 24px;
+}
+.make>.job>.close>.image{
+    margin-left: 6vw;
+    width: 70vw;
+    height: 40vh;
+}
+.make>.job>.close>.text{
+    margin-left: 2vw;
+}
+.make>.job>.close>.text>h1{
+    font-size: 17px;
+}
+.footer{
+    position: relative;
+    height: 175vh;
+    background-color: #004d42;
+}
+.footer>.extract{
+    position: absolute;
+    top: 5vh;
+   left: 7vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70vw;
+}
+.footer>.extract>.quick-links>ul{
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.quick-links>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.extract>.social>ul{
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.social>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.extract>.top{
+    margin-top: -10vh;
+    margin-left: -2vw;
+}
+.footer>.extract>.top>ul{
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.top>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.extract>.location{
+    margin-top: -13vh;
+}
+.footer>.extract>.location>ul{
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.location>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.footer-imp{
+    position: absolute;
+    top: 165vh;
+    background-color: #000;
+    height: 9.75vh;
+    width: 100%;
+}
+.footer>.footer-imp>p{
+    margin-top: 0vh;
+    text-align: center;
+    color: #ffff;
+}
+}
+
+@media (min-width:321px) and (max-width:375px){
+    header>.unorder-list{
+        display: none;
+    }
+header>.fa-bars{
+    display: block;
+    cursor: pointer;
+    margin-left: 35vw;
+}
+header>.fa-times{
+    cursor: pointer;
+    margin-left: 35vw;
+}
+header{
+    position: absolute;
+    width: 100%;
+    height: 13vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    transition: 0.6s;    
+    z-index: 100000;
+    border-bottom: 1px solid gainsboro;
+}
+header>.order-list{
+    display: none;
+}
+header>.unorder-list{
+    display: none;
+}
+.page{
+    height: 130vh;
+}
+.page>.hard>h1{
+    font-size: 20px;
+    margin-left: 3vw;
+}
+.what{
+    height:650vh;
+}
+.what>.soft>h1{
+    margin-left: 6vw;
+    font-size: 20px;
+}
+.what>.space>.fill{
+    margin-left: 8vw;
+    width: 80vw;
+    height: 50vh;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+}
+.this{
+    height: 100vh;
+}
+.this>.that>h1{
+    font-size: 24px;
+    margin-left: 13.5vw;
+}
+.this>.that>.video{
+    margin-left: 0vw;
+    width: 90vw;
+    height: 300px;
+    object-fit: contain;
+}
+.line-1{
+    display: block;
+}
+.make{
+    position: relative;
+    height: 120vh;
+}
+.make>.job>h1{
+    margin-left: 5vw;
+    font-size: 24px;
+}
+.make>.job>.close>.image{
+    margin-left: 8vw;
+    width: 70vw;
+    height: 40vh;
+}
+.make>.job>.close>.text{
+    margin-left: 2vw;
+}
+.make>.job>.close>.text>h1{
+    margin-left: 5vw;
+    font-size: 17px;
+}
+.make>.job>.close>.text>a>button{
+    margin-top: 10vh;
+    margin-left: 10vw;
+}
+.footer{
+    position: relative;
+    height: 175vh;
+    background-color: #004d42;
+}
+.footer>.extract{
+    position: absolute;
+    top: 5vh;
+   left: 7vw;
+    display: flex;
+    flex-direction: column;
+    gap: 40vh;
+}
+.footer>.extract>.quick-links>ul{
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.quick-links>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.extract>.social>ul{
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.social>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.extract>.top{
+    margin-top: -10vh;
+    margin-left: -2vw;
+}
+.footer>.extract>.top>ul{
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.top>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.extract>.location{
+    margin-top: -10vh;
+}
+.footer>.extract>.location>ul{
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.location>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.footer-imp{
+    position: absolute;
+    top: 165vh;
+    background-color: #000;
+    height: 9.75vh;
+    width: 100%;
+}
+.footer>.footer-imp>p{
+    margin-top: 2vh;
+    text-align: center;
+    color: #ffff;
+}
+}
+
+@media (min-width:376px) and (max-width:425px){
+    header>.unorder-list{
+        display: none;
+    }
+header>.fa-bars{
+    display: block;
+    cursor: pointer;
+    margin-left: 35vw;
+}
+header>.fa-times{
+    cursor: pointer;
+    margin-left: 35vw;
+}
+header{
+    position: absolute;
+    width: 100%;
+    height: 13vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    transition: 0.6s;    
+    z-index: 100000;
+    border-bottom: 1px solid gainsboro;
+}
+header>.order-list{
+    display: none;
+}
+header>.unorder-list{
+    display: none;
+}
+.page{
+    height: 120vh;
+}
+.page>.hard>h1{
+    font-size: 24px;
+    margin-left: 1vw;
+}
+.what{
+    height:650vh;
+}
+.what>.soft>h1{
+    margin-left: 1vw;
+    font-size: 24px;
+}
+.what>.space>.fill{
+    margin-left: 8vw;
+    width: 80vw;
+    height: 50vh;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+}
+.this{
+    height: 100vh;
+}
+.this>.that>h1{
+    font-size: 24px;
+    margin-left: 15vw;
+}
+.this>.that>.video{
+    margin-left: 0vw;
+    width: 90vw;
+    height: 300px;
+    object-fit: contain;
+}
+.line-1{
+    display: block;
+}
+.make{
+    position: relative;
+    height: 120vh;
+}
+.make>.job>h1{
+    margin-left: 5vw;
+    font-size: 25px;
+}
+.make>.job>.close>.image{
+    margin-left: 6vw;
+    width: 70vw;
+    height: 40vh;
+}
+.make>.job>.close>.text{
+    margin-left: 2vw;
+}
+.make>.job>.close>.text>h1{
+    margin-left: 10vw;
+    font-size: 17px;
+}
+.make>.job>.close>.text>a>button{
+    margin-top: 10vh;
+    margin-left: 10vw;
+}
+.footer{
+    position: relative;
+    height: 175vh;
+    background-color: #004d42;
+}
+.footer>.extract{
+    position: absolute;
+    top: 5vh;
+   left: 7vw;
+    display: flex;
+    flex-direction: column;
+    gap: 40vh;
+}
+.footer>.extract>.quick-links>ul{
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.quick-links>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.extract>.social>ul{
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.social>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.extract>.top{
+    margin-top: -10vh;
+    margin-left: -2vw;
+}
+.footer>.extract>.top>ul{
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.top>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.extract>.location{
+    margin-top: -10vh;
+}
+.footer>.extract>.location>ul{
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.location>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.footer-imp{
+    position: absolute;
+    top: 165vh;
+    background-color: #000;
+    height: 9.75vh;
+    width: 100%;
+}
+.footer>.footer-imp>p{
+    margin-top: 2vh;
+    text-align: center;
+    color: #ffff;
+}
+}
+
+
+@media (device-width:320px) and (device-height:658px){
+    .page{
+        height: 115vh;
+    }
+    .this{
+        height: 90vh;
+    }
+    .footer{
+        height: 140vh;
+    }
+    .footer>.footer-imp{
+        top: 130vh;
+    }
+    .footer>.footer-imp>p{
+        margin-top: 3vh;
+    }
+}
+
+@media (min-width:376px) and (max-width:425px){
+    header>.unorder-list{
+        display: none;
+    }
+header>.fa-bars{
+    display: block;
+    cursor: pointer;
+    margin-left: 35vw;
+}
+header>.fa-times{
+    cursor: pointer;
+    margin-left: 35vw;
+}
+header{
+    position: absolute;
+    width: 100%;
+    height: 13vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    transition: 0.6s;    
+    z-index: 100000;
+    border-bottom: 1px solid gainsboro;
+}
+header>.order-list{
+    display: none;
+}
+header>.unorder-list{
+    display: none;
+}
+.page{
+    height: 120vh;
+}
+.page>.hard>h1{
+    font-size: 24px;
+    margin-left: 1vw;
+}
+.what{
+    height:650vh;
+}
+.what>.soft>h1{
+    margin-left: 1vw;
+    font-size: 24px;
+}
+.what>.space>.fill{
+    margin-left: 8vw;
+    width: 80vw;
+    height: 50vh;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+}
+.this{
+    height: 100vh;
+}
+.this>.that>h1{
+    font-size: 24px;
+    margin-left: 15vw;
+}
+.this>.that>.video{
+    margin-left: 0vw;
+    width: 90vw;
+    height: 300px;
+    object-fit: contain;
+}
+.line-1{
+    display: block;
+}
+.make{
+    position: relative;
+    height: 120vh;
+}
+.make>.job>h1{
+    margin-left: 5vw;
+    font-size: 25px;
+}
+.make>.job>.close>.image{
+    margin-left: 6vw;
+    width: 70vw;
+    height: 40vh;
+}
+.make>.job>.close>.text{
+    margin-left: 2vw;
+}
+.make>.job>.close>.text>h1{
+    margin-left: 10vw;
+    font-size: 17px;
+}
+.make>.job>.close>.text>a>button{
+    margin-top: 10vh;
+    margin-left: 10vw;
+}
+.footer{
+    position: relative;
+    height: 175vh;
+    background-color: #004d42;
+}
+.footer>.extract{
+    position: absolute;
+    top: 5vh;
+   left: 7vw;
+    display: flex;
+    flex-direction: column;
+    gap: 40vh;
+}
+.footer>.extract>.quick-links>ul{
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.quick-links>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.extract>.social>ul{
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.social>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.extract>.top{
+    margin-top: -10vh;
+    margin-left: -2vw;
+}
+.footer>.extract>.top>ul{
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.top>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.extract>.location{
+    margin-top: -10vh;
+}
+.footer>.extract>.location>ul{
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.location>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.footer-imp{
+    position: absolute;
+    top: 165vh;
+    background-color: #000;
+    height: 9.75vh;
+    width: 100%;
+}
+.footer>.footer-imp>p{
+    margin-top: 2vh;
+    text-align: center;
+    color: #ffff;
+}
+}
+
+@media (min-width:426px) and (max-width:500px){
+    header>.unorder-list{
+        display: none;
+    }
+header>.fa-bars{
+    display: block;
+    cursor: pointer;
+    margin-left: 35vw;
+}
+header>.fa-times{
+    cursor: pointer;
+    margin-left: 35vw;
+}
+header{
+    position: absolute;
+    width: 100%;
+    height: 13vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    transition: 0.6s;    
+    z-index: 100000;
+    border-bottom: 1px solid gainsboro;
+}
+header>.order-list{
+    display: none;
+}
+header>.unorder-list{
+    display: none;
+}
+.page{
+    height: 120vh;
+}
+.page>.hard>h1{
+    font-size: 24px;
+    margin-left: 1vw;
+}
+.what{
+    height:650vh;
+}
+.what>.soft>h1{
+    margin-left: 1vw;
+    font-size: 24px;
+}
+.what>.space>.fill{
+    margin-left: 8vw;
+    width: 80vw;
+    height: 50vh;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+}
+.this{
+    height: 100vh;
+}
+.this>.that>h1{
+    font-size: 24px;
+    margin-left: 15vw;
+}
+.this>.that>.video{
+    margin-left: 0vw;
+    width: 90vw;
+    height: 300px;
+    object-fit: contain;
+}
+.line-1{
+    display: block;
+}
+.make{
+    position: relative;
+    height: 120vh;
+}
+.make>.job>h1{
+    margin-left: 5vw;
+    font-size: 25px;
+}
+.make>.job>.close>.image{
+    margin-left: 6vw;
+    width: 70vw;
+    height: 40vh;
+}
+.make>.job>.close>.text{
+    margin-left: 2vw;
+}
+.make>.job>.close>.text>h1{
+    margin-left: 10vw;
+    font-size: 17px;
+}
+.make>.job>.close>.text>a>button{
+    margin-top: 10vh;
+    margin-left: 10vw;
+}
+.footer{
+    position: relative;
+    height: 175vh;
+    background-color: #004d42;
+}
+.footer>.extract{
+    position: absolute;
+    top: 5vh;
+   left: 7vw;
+    display: flex;
+    flex-direction: column;
+    gap: 40vh;
+}
+.footer>.extract>.quick-links>ul{
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.quick-links>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.extract>.social>ul{
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.social>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.extract>.top{
+    margin-top: -10vh;
+    margin-left: -2vw;
+}
+.footer>.extract>.top>ul{
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.top>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.extract>.location{
+    margin-top: -10vh;
+}
+.footer>.extract>.location>ul{
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.location>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.footer-imp{
+    position: absolute;
+    top: 165vh;
+    background-color: #000;
+    height: 9.75vh;
+    width: 100%;
+}
+.footer>.footer-imp>p{
+    margin-top: 2vh;
+    text-align: center;
+    color: #ffff;
+}
+}
+
+
+@media (device-width:360px) and (device-height:720px){
+    .page{
+        height: 105vh;
+    }
+    .this{
+        height: 80vh;
+    }
+    .make{
+        height: 110vh;
+    }
+    .footer{
+        height: 160vh;
+    }
+    .footer>.footer-imp{
+        top: 150vh;
+    }
+   .footer>.footer-imp>p{
+        margin-top: 3.5vh;
+    }
+}
+
+
+
+
+
+
+@media (device-width:360px) and (device-height:740px){
+    .page{
+        height: 105vh;
+    }
+    .this{
+        height: 80vh;
+    }
+    .make{
+        height: 110vh;
+    }
+    .footer{
+        height: 160vh;
+    }
+    .footer>.footer-imp{
+        top: 150vh;
+    }
+   .footer>.footer-imp>p{
+        margin-top: 3.5vh;
+    }
+}
+
+@media (device-width:375px) and (device-height:667px){
+    .page{
+        height: 115vh;
+    }
+    .this{
+        height: 90vh;
+    }
+    .footer{
+        height: 160vh;
+    }
+    .footer>.footer-imp{
+        top: 150vh;
+    }
+    .footer>.footer-imp>p{
+        margin-top: 3vh;
+    }
+}
+
+@media (device-width:414px) and (device-height:896px){
+    .page{
+        height: 75vh;
+    }
+    .this{
+        height: 65vh;
+    }
+    .make{
+        height: 100vh;
+    }
+    .footer{
+        height: 120vh;
+    }
+    .footer>.extract{
+        gap: 30vh;
+    }
+    .footer>.footer-imp{
+        top: 110vh;
+    }
+}
+
+@media (device-width:390px) and (device-height:844px){
+    .page{
+        height: 80vh;
+    }
+    .this{
+        height: 65vh;
+    }
+    .make{
+        height: 100vh;
+    }
+    .footer{
+        height: 120vh;
+    }
+    .footer>.extract{
+        gap: 30vh;
+    }
+    .footer>.footer-imp{
+        top: 110vh;
+    }
+}
+
+@media (device-width:430px) and (device-height:932px){
+    .page{
+        height: 75vh;
+    }
+    .this{
+        height: 65vh;
+    }
+    .make{
+        height: 100vh;
+    }
+    .footer{
+        height: 120vh;
+    }
+    .footer>.extract{
+        gap: 30vh;
+    }
+    .footer>.footer-imp{
+        top: 110vh;
+    }
+}
+
+
+@media (device-width:412px) and (device-height:915px){
+    .page{
+        height: 75vh;
+    }
+    .this{
+        height: 65vh;
+    }
+    .make{
+        height: 100vh;
+    }
+    .footer{
+        height: 120vh;
+    }
+    .footer>.extract{
+        gap: 30vh;
+    }
+    .footer>.footer-imp{
+        top: 110vh;
+    }
+}
+
+@media (device-width:414px) and (device-height:736px){
+    .page{
+        height: 90vh;
+    }
+    .this{
+        height: 80vh;
+    }
+    .make{
+        height: 110vh;
+    }
+    .footer{
+        height: 160vh;
+    }
+    .footer>.footer-imp{
+        top: 150vh;
+    }
+   .footer>.footer-imp>p{
+        margin-top: 3.5vh;
+    }
+}

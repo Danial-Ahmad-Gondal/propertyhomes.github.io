@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+header{
+    position: fixed;
+    width: 100%;
+    height: 13vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    transition: 0.6s;    
+    z-index: 100000;
+    border-bottom: 1px solid linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1)) ;
+    background:linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1)) ;
+}
+header>.fa-bars{
+    position: absolute;
+    left: 50vw;
+    font-size: 40px;
+    color: #fff;
+    display: none;
+}
+header>.fa-times{
+    position: absolute;
+    left: 50vw;
+    font-size: 40px;
+    color: #fff;
+    display: none;
+    cursor: pointer;
+}
+header>.order-list{
+    position: absolute;
+    top: 13vh;
+    left: 0;
+    width: 200px;
+    line-height: 10px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1));
+    display: none;
+    transition: all 2s ease-in;
+}
+header>.order-list>hr{
+    width: 100%;
+}
+header>ul{
+    position: relative;
+    top: 1vh;
+    left: 2vw;
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    justify-content: center;
+}
+header>ul>li{
+    position: relative;
+    list-style: none;
+    font-size: 13px;
+    background-color: transparent;
+    padding: 25px 20px;
+    transition: all 0.5s ease-out;
+}
+header>ul>li:hover{
+    background-color: rgba(0,0,0,.5);
+}
+header>ul>li>a{
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+}
+.begin{
+    position: relative;
+    height:50vh;
+    width: 100%;
+    background-image: linear-gradient(to right,rgba(154, 193, 66, 0.5) , rgba(223, 202, 42, 0.25)) , url(images/contactus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.begin>.hor{
+    position: absolute;
+    top: 23vh;
+    left: 15vw;
+}
+.begin>.hor>.heading>h2{
+    color: #fff;
+    cursor: pointer;
+}
+.begin>.hor>.heading>h2:hover{
+    animation-name: sohaib;
+    animation-delay: 0.2s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes sohaib{
+    0%{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    50%{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    100%{
+        font-family: cursive;
+    }
+}
+.begin>.hor>.heading>h1{
+    color: #ffff;
+    margin-left: 7.5vw;
+    cursor: pointer;
+}
+.begin>.hor>.heading>h1:hover{
+    animation-name: sohaib;
+    animation-delay: 0.2s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.contact-us{
+    position: relative;
+    height: 110vh;
+    background-color: rgba(241, 225, 241, 0.6);
+}
+.contact-us>.box{
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+    width: 55vw;
+    height: 90vh;
+    background-color: #fff;
+}
+.contact-us>.box>.box-start>h1{
+    margin-top: 2vh;
+    margin-left: 2vw;
+    font-size: 30px;
+}
+.contact-us>.box>.box-start>p{
+    margin-top: 1vh;
+    margin-left: 2vw;
+}
+.contact-us>.box>.inputs{
+    margin-top: 5vh;
+    margin-left: 2vw;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.contact-us>.box>.inputs>form{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.contact-us>.box>.inputs>form>.sumbit{
+    border-radius: 10px;
+    background: linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1));
+    color: #fff;
+    transition: all 0.5s ease-out;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+.contact-us>.box>.inputs>form>.sumbit:hover{
+    background-color: #000;
+}
+.contact-us>.box>.inputs>form>input{
+    width: 300px;
+    height: 50px;
+    outline: none;
+    text-indent: 10px;
+}
+/*the footer css is here*/
+.footer{
+    position: relative;
+    height: 60vh;
+    background:linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1)) ;
+}
+.footer>.extract{
+    position: absolute;
+    top: 5vh;
+   left: 7vw;
+    display: flex;
+    gap: 8vw;
+}
+.footer>.extract>.quick-links>ul{
+    position: absolute;
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.quick-links>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.extract>.social>ul{
+    position: absolute;
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.social>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.extract>.top>ul{
+    position: absolute;
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.top>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.extract>.location>ul{
+    position: absolute;
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.location>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.footer-imp{
+    position: absolute;
+    top: 50vh;
+    border: 1px solid white;
+    background:linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1));
+    height: 9.75vh;
+    width: 100%;
+}
+.footer>.footer-imp>p{
+    margin-top: 3vh;
+    text-align: center;
+    color: #ffff;
+}

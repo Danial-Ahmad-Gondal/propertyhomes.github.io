@@ -1,0 +1,18 @@
+/*@media (max-width:1279px){
+    .start>ul{
+        display: none;
+    }
+    .start>.icon{
+        display: block;
+    }
+    .start>ul{
+        position: absolute;
+        top: 11.25vh;
+        left: 0.10vw;
+        list-style-type: none;
+        background-color:rgba(0,0,0,.75);
+    }
+    .start>ul>.take , .take-1 , .take-2 , .take-3 , .take-4{
+        display: block;
+    }
+}*/

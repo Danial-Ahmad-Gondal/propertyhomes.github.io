@@ -1,0 +1,835 @@
+@media (max-width:320px){
+    header>.unorder-list{
+        display: none;
+    }
+header>.fa-bars{
+    display: block;
+    cursor: pointer;
+    margin-left: 35vw;
+}
+header>.fa-times{
+    cursor: pointer;
+    margin-left: 35vw;
+}
+header{
+    position: absolute;
+    width: 100%;
+    height: 13vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    transition: 0.6s;    
+    z-index: 100000;
+    border-bottom: 1px solid gainsboro;
+    background-color:linear-gradient(to right,rgba(154, 193, 66, 0) , rgba(223, 202, 42, 0)) ; ;
+}
+header>.order-list{
+    display: none;
+}
+.content{
+    position: relative;
+    height: 530vh;
+}
+.content>.content-start{
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+}
+.footer{
+    position: relative;
+    height: 180vh;
+    background-color: #004d42;
+}
+.footer>.extract{
+    position: absolute;
+    top: 5vh;
+   left: 7vw;
+    display: flex;
+    flex-direction: column;
+    gap: 40vh;
+}
+.footer>.extract>.quick-links>ul{
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.quick-links>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.extract>.social>ul{
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.social>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.extract>.top{
+    margin-top: -10vh;
+}
+.footer>.extract>.top>h1{
+    font-size: 22px;
+}
+.footer>.extract>.top>ul{
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.top>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.extract>.location{
+    margin-top: -10vh;
+}
+.footer>.extract>.location>ul{
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.location>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.footer-imp{
+    position: absolute;
+    top: 170vh;
+    background-color:linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1));
+    height: 9.75vh;
+    width: 100%;
+}
+.footer>.footer-imp>p{
+    margin-top: 0vh;
+    text-align: center;
+    color: #ffff;
+}
+}
+
+/*Ab jab screen height mai tang kare gi ye to hoga naa*/
+@media (max-width:320px) and (min-height:600px) and (max-height:650px){
+    header>.unorder-list{
+        display: none;
+    }
+header>.fa-bars{
+    display: block;
+    cursor: pointer;
+    margin-left: 35vw;
+}
+header>.fa-times{
+    cursor: pointer;
+    margin-left: 35vw;
+}
+header{
+    position: absolute;
+    width: 100%;
+    height: 13vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    transition: 0.6s;    
+    z-index: 100000;
+    border-bottom: 1px solid gainsboro;
+    background-color: #004d42;
+}
+header>.order-list{
+    display: none;
+}
+.content{
+    position: relative;
+    height: 470vh;
+}
+.content>.content-start{
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+}
+.footer{
+    position: relative;
+    height: 250vh;
+    background-color: #004d42;
+}
+.footer>.extract{
+    position: absolute;
+    top: 5vh;
+   left: 7vw;
+    display: flex;
+    flex-direction: column;
+    gap: 55vh;
+}
+.footer>.extract>.quick-links>ul{
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.quick-links>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.extract>.social>ul{
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.social>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.extract>.top{
+    margin-top: -10vh;
+}
+.footer>.extract>.top>h1{
+    font-size: 22px;
+}
+.footer>.extract>.top>ul{
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.top>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.extract>.location{
+    margin-top: 10vh;
+}
+.footer>.extract>.location>ul{
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.location>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.footer-imp{
+    position: absolute;
+    top: 240vh;
+    background-color: linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1)) ;;
+    height: 9.75vh;
+    width: 100%;
+}
+.footer>.footer-imp>p{
+    margin-top: 0vh;
+    text-align: center;
+    color: #ffff;
+}
+}
+@media (max-width:320px) and (min-height:600px) and (min-height:651px) and (max-height:900px){
+    .content{
+        position: relative;
+        height: 440vh;
+    }
+    .footer{
+        position: relative;
+        height: 180vh;
+        background-color: #004d42;
+    }
+    .footer>.extract{
+        position: absolute;
+        top: 5vh;
+       left: 7vw;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 75vw;
+    }
+    .footer>.extract>.quick-links>ul{
+        list-style: none;
+        line-height: 40px;
+    }
+    .footer>.extract>.quick-links>ul>li>a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .footer>.extract>.social>ul{
+        list-style: none;
+        line-height: 40px;
+    }
+    .footer>.extract>.social>ul>li>a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .footer>.extract>.top{
+        margin-top: -10vh;
+    }
+    .footer>.extract>.top>h1{
+        font-size: 22px;
+    }
+    .footer>.extract>.top>ul{
+        list-style: none;
+        line-height: 40px;
+    }
+    .footer>.extract>.top>ul>li>a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .footer>.extract>.location{
+        margin-top: 10vh;
+    }
+    .footer>.extract>.location>ul{
+        list-style: none;
+        line-height: 40px;
+    }
+    .footer>.extract>.location>ul>li>a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .footer>.footer-imp{
+        position: absolute;
+        top: 170vh;
+        background-color: linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1)) ;;
+        height: 9.75vh;
+        width: 100%;
+    }
+    .footer>.footer-imp>p{
+        margin-top: 0vh;
+        text-align: center;
+        color: #ffff;
+    }
+    
+}
+ /*Bas itna hi hona tha*/
+             /*-----------------Max width 375 par screen aise hogi-------------------*/
+             @media (min-width:321px) and (max-width:375px){
+                header>.unorder-list{
+                    display: none;
+                }
+            header>.fa-bars{
+                display: block;
+                cursor: pointer;
+                margin-left: 35vw;
+            }
+            header>.fa-times{
+                cursor: pointer;
+                margin-left: 35vw;
+            }
+            header{
+                position: absolute;
+                width: 100%;
+                height: 13vh;
+                top: 0;
+                left: 0;
+                display: flex;
+                gap: 1vw;
+                align-items: center;
+                transition: 0.6s;    
+                z-index: 100000;
+                border-bottom: 1px solid gainsboro;
+            }
+            header>.order-list{
+                display: none;
+            }
+            .content{
+                position: relative;
+                height: 470vh;
+            }
+            .content>.content-start{
+                position: absolute;
+                top: 5vh;
+                left: 5vw;
+            }
+            .footer{
+                position: relative;
+                height: 180vh;
+                background-color: #004d42;
+            }
+            .footer>.extract{
+                position: absolute;
+                top: 5vh;
+               left: 7vw;
+                display: flex;
+                flex-wrap: wrap;    
+                gap: 60vw;
+            }
+            .footer>.extract>.quick-links>ul{
+                list-style: none;
+                line-height: 40px;
+            }
+            .footer>.extract>.quick-links>ul>li>a{
+                text-decoration: none;
+                color: #fff;
+            }
+            .footer>.extract>.social>ul{
+                list-style: none;
+                line-height: 40px;
+            }
+            .footer>.extract>.social>ul>li>a{
+                text-decoration: none;
+                color: #fff;
+            }
+            .footer>.extract>.top{
+                margin-top: -10vh;
+            }
+            .footer>.extract>.top>h1{
+                font-size: 22px;
+            }
+            .footer>.extract>.top>ul{
+                list-style: none;
+                line-height: 40px;
+            }
+            .footer>.extract>.top>ul>li>a{
+                text-decoration: none;
+                color: #fff;
+            }
+            .footer>.extract>.location{
+                margin-top: -10vh;
+            }
+            .footer>.extract>.location>ul{
+                list-style: none;
+                line-height: 40px;
+            }
+            .footer>.extract>.location>ul>li>a{
+                text-decoration: none;
+                color: #fff;
+            }
+            .footer>.footer-imp{
+                position: absolute;
+                top: 170vh;
+                background-color: linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1));
+                height: 9.75vh;
+                width: 100%;
+            }
+            .footer>.footer-imp>p{
+                margin-top: 2vh;
+                text-align: center;
+                color: #ffff;
+            }
+            }
+@media(min-width:321px) and (max-width:375px) and (max-height:667px){
+    .content{
+        position: relative;
+        height: 390vh;
+    }
+}
+@media(min-width:321px) and (max-width:375px) and (max-height:625px){
+    .content{
+        position: relative;
+        height: 400vh;
+    }
+}
+@media(min-width:321px) and (max-width:375px) and (max-height:611px){
+    .content{
+        position: relative;
+        height: 410vh;
+    }
+}
+@media(min-width:321px) and (max-width:375px) and (min-height:590px) and (max-height:600px){
+    .content{
+        position: relative;
+        height: 430vh;
+    }
+}
+@media(min-width:321px) and (max-width:375px) and (min-height:542px) and (max-height:589px){
+    .content{
+        position: relative;
+        height: 460vh;
+    }
+}
+               /*-----------Max width 425px pai aisa lagi screen------------------*/
+               @media (min-width:376px) and (max-width:425px){
+                header>.unorder-list{
+                    display: none;
+                }
+            header>.fa-bars{
+                display: block;
+                cursor: pointer;
+                margin-left: 35vw;
+            }
+            header>.fa-times{
+                cursor: pointer;
+                margin-left: 35vw;
+            }
+            header{
+                position: absolute;
+                width: 100%;
+                height: 13vh;
+                top: 0;
+                left: 0;
+                display: flex;
+                gap: 1vw;
+                align-items: center;
+                transition: 0.6s;    
+                z-index: 100000;
+                border-bottom: 1px solid gainsboro;
+                background-color: #004d42;
+            }
+            header>.order-list{
+                display: none;
+            }
+            .content{
+                position: relative;
+                height: 440vh;
+            }
+            .content>.content-start{
+                position: absolute;
+                top: 5vh;
+                left: 5vw;
+            }
+            .footer{
+                position: relative;
+                height: 180vh;
+                background: linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1));
+            }
+            .footer>.extract{
+                position: absolute;
+                top: 5vh;
+               left: 7vw;
+                display: flex;
+                flex-direction: column;
+                gap: 40vh;
+            }
+            .footer>.extract>.quick-links>ul{
+                list-style: none;
+                line-height: 40px;
+            }
+            .footer>.extract>.quick-links>ul>li>a{
+                text-decoration: none;
+                color: #fff;
+            }
+            .footer>.extract>.social>ul{
+                list-style: none;
+                line-height: 40px;
+            }
+            .footer>.extract>.social>ul>li>a{
+                text-decoration: none;
+                color: #fff;
+            }
+            .footer>.extract>.top{
+                margin-top: -10vh;
+            }
+            .footer>.extract>.top>h1{
+                font-size: 22px;
+            }
+            .footer>.extract>.top>ul{
+                list-style: none;
+                line-height: 40px;
+            }
+            .footer>.extract>.top>ul>li>a{
+                text-decoration: none;
+                color: #fff;
+            }
+            .footer>.extract>.location{
+                margin-top: -10vh;
+            }
+            .footer>.extract>.location>ul{
+                list-style: none;
+                line-height: 40px;
+            }
+            .footer>.extract>.location>ul>li>a{
+                text-decoration: none;
+                color: #fff;
+            }
+            .footer>.footer-imp{
+                position: absolute;
+                top: 170vh;
+                background:linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1));
+                height: 9.75vh;
+                width: 100%;
+            }
+            .footer>.footer-imp>p{
+                margin-top: 2.5vh;
+                text-align: center;
+                color: #ffff;
+            }
+            }
+
+
+     /*------------------Agr width 426-480 hogi to ye hoga na bhai-----------------*/
+     @media (min-width:426px) and (max-width:480px){
+        header>.unorder-list{
+            display: none;
+        }
+    header>.fa-bars{
+        display: block;
+        cursor: pointer;
+        margin-left: 35vw;
+    }
+    header>.fa-times{
+        cursor: pointer;
+        margin-left: 35vw;
+    }
+    header{
+        position: absolute;
+        width: 100%;
+        height: 13vh;
+        top: 0;
+        left: 0;
+        display: flex;
+        gap: 1vw;
+        align-items: center;
+        transition: 0.6s;    
+        z-index: 100000;
+        border-bottom: 1px solid gainsboro;
+        background-color: #004d42;
+    }
+    header>.order-list{
+        display: none;
+    }
+    .content{
+        position: relative;
+        height: 440vh;
+    }
+    .content>.content-start{
+        position: absolute;
+        top: 5vh;
+        left: 5vw;
+    }
+    .footer{
+        position: relative;
+        height: 250vh;
+        background-color: #004d42;
+    }
+    .footer>.extract{
+        position: absolute;
+        top: 5vh;
+       left: 7vw;
+        display: flex;
+        flex-direction: column;
+        gap: 55vh;
+    }
+    .footer>.extract>.quick-links>ul{
+        list-style: none;
+        line-height: 40px;
+    }
+    .footer>.extract>.quick-links>ul>li>a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .footer>.extract>.social>ul{
+        list-style: none;
+        line-height: 40px;
+    }
+    .footer>.extract>.social>ul>li>a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .footer>.extract>.top{
+        margin-top: -10vh;
+    }
+    .footer>.extract>.top>h1{
+        font-size: 22px;
+    }
+    .footer>.extract>.top>ul{
+        list-style: none;
+        line-height: 40px;
+    }
+    .footer>.extract>.top>ul>li>a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .footer>.extract>.location{
+        margin-top: 10vh;
+    }
+    .footer>.extract>.location>ul{
+        list-style: none;
+        line-height: 40px;
+    }
+    .footer>.extract>.location>ul>li>a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .footer>.footer-imp{
+        position: absolute;
+        top: 240vh;
+        background-color: #000;
+        height: 9.75vh;
+        width: 100%;
+    }
+    .footer>.footer-imp>p{
+        margin-top: 0vh;
+        text-align: center;
+        color: #ffff;
+    }
+    }         
+
+
+    @media (device-width:768px) and (device-height:723px){
+      header{
+        position: fixed;
+        width: 100%;
+      }
+      header>ul{
+        left: 0vw;
+        gap: 0vw;
+      }
+        header>ul>li{
+            font-family:'Times New Roman', Times, serif;
+       font-size: 12px;
+      }
+      .begin{
+        position: relative;
+        width: 100%;
+      }
+      .content{
+        height: 210vh;
+        max-width: 100%;
+      }
+      .footer{
+        position: relative;
+        width: 100%;
+      }
+      .footer>.extract{
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .footer>.extract>.location{
+        margin-top: 15vh;
+        margin-left: 25vw;
+      }
+      .footer>.extract>.location>ul{
+        line-height: 30px;
+      }                          
+    }
+
+    @media (device-width:360px) and (min-device-height:590px) and (max-device-height:630px){
+        .footer{
+            height: 155vh;
+        }
+        .footer>.footer-imp{
+            top: 145vh;
+        }
+    }
+
+
+@media (device-width:320px) and (device-height:658px){
+    .footer{
+        height: 160vh;
+    }
+    .footer>.footer-imp{
+        top: 150vh;
+    }
+    .footer>.extract>.location{
+        margin-top: -10vh;
+    }
+}
+
+    @media (device-width:360px) and (device-height:720px){
+        .content{
+            height: 360vh;
+        }
+        .footer{
+            height: 135vh;
+        }
+        .footer>.footer-imp{
+            top: 125vh;
+        }
+    }
+
+
+
+    @media (device-width:360px) and (device-height:740px){
+        .content{
+            height: 350vh;
+        }
+        .footer{
+            height: 135vh;
+        }
+        .footer>.footer-imp{
+            top: 125vh;
+        }
+           }
+
+    @media (device-width:375px) and (device-height:667px){
+        .footer{
+            height: 150vh;
+        }
+        .footer>.footer-imp{
+            top: 140vh;
+        }
+        .footer>.extract>.location{
+            margin-top: -10vh;
+        }
+    }       
+
+    @media (device-width:414px) and (device-height:896px){
+        .content{
+            height: 265vh;
+        }
+        .footer{
+            height: 140vh;
+        }
+        .footer>.extract{
+            gap: 35vh;
+        }
+        .footer>.footer-imp{
+            top: 130vh;
+        }
+        .footer>.extract>.location{
+            margin-top: -10vh;
+        }
+    }
+
+    @media (device-width:390px) and (device-height:844px){
+        .content{
+            height:290vh;
+        }
+        .footer{
+            height: 140vh;
+        }
+        .footer>.extract{
+            gap: 35vh;
+        }
+        .footer>.footer-imp{
+            top: 130vh;
+        }
+        .footer>.extract>.location{
+            margin-top: -10vh;
+        }
+    }
+
+    @media (device-width:430px) and (device-height:932px){
+        .content{
+            height:250vh;
+        }
+        .footer{
+            height: 120vh;
+        }
+        .footer>.extract{
+            gap: 30vh;
+        }
+        .footer>.footer-imp{
+            top: 110vh;
+            background:linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1)) ;
+        }
+        .footer>.footer-imp>p{
+            margin-top: 3vh;
+        }
+        .footer>.extract>.location{
+            margin-top: -10vh;
+        }
+    }
+
+
+    @media (device-width:412px) and (device-height:915px){
+        .content{
+            height:250vh;
+        }
+        .footer{
+            height: 120vh;
+        }
+        .footer>.extract{
+            gap: 30vh;
+        }
+        .footer>.footer-imp{
+            top: 110vh;
+            background:linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1)) ;
+        }
+        .footer>.footer-imp>p{
+            margin-top: 3vh;
+        }
+        .footer>.extract>.location{
+            margin-top: -10vh;
+        }
+    }
+
+    @media (device-width:414px) and (device-height:736px){
+        .content{
+            height: 310vh;
+        }
+        .footer{
+            height: 135vh;
+        }
+        .footer>.extract{
+            gap: 32vh;
+        }
+        .footer>.footer-imp{
+            top: 125vh;
+        }
+           }

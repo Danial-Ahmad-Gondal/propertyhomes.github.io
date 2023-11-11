@@ -1,0 +1,2747 @@
+@media (max-width:320px) and (min-height:400px) and (max-height:599px){
+    #loading-screen {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1)); /* Background color for the loading screen */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999; /* Ensure it appears on top of your content */
+    }
+    
+    .loading-animation {
+        text-align: center;
+        color: #fff;
+    }
+    .loading-animation>.tree{
+      margin-left: -2vw;
+    }
+    .loading-animation>.flower{
+        margin-left: -2vw;
+    }
+    .loading-animation>.tree,.flower,.fruit{
+        font-size: 16px;
+    }
+    .loading-animation>.flower{
+    font-size: 17px;
+    }
+    .loading-animation>.tree,.flower,.fruit{
+        animation-name: sohaib;
+        animation-duration: 3s;
+        animation-delay: 0.5s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes sohaib{
+        0%{
+            transform: scale(1.4);
+        }
+        25%{
+            transform: scale(1.1);
+        }
+        75%{
+            transform: scale(1.3);
+        }
+        100%{
+            transform: scale(1.2);
+        }
+    }
+    .popup {
+        display: none;
+        position: fixed;
+        top: -12vh;
+        left: 0vw;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index:1000;
+    }    
+    .popup-content {
+        background-color: #fff;
+        width: 85%;
+        max-width: 320px;
+        margin: 100px auto;
+        margin-left: 7.5vw;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        position: relative;
+    }
+    header>.unorder-list{
+        display: none;
+    }
+    header>.fa-bars{
+        display: block;
+        cursor: pointer;
+        margin-left: 35vw;
+    }
+    header>.fa-times{
+        cursor: pointer;
+        margin-left: 35vw;
+    }
+    header{
+        position: fixed;
+        width: 100%;
+        height: 13vh;
+        top: 0;
+        left: 0;
+        display: flex;
+        gap: 1vw;
+        align-items: center;
+        justify-content: space-between;
+        transition: 0.6s;    
+        z-index: 999;
+        border-bottom: 1px solid gainsboro;
+        background:linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1)) ;
+    }
+    .header-2{
+        position: absolute;
+        top: 10vh;
+        left: 0vw;
+        display: flex;
+        gap: 10vw;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border-bottom: none;
+        font-size: 20px;
+        z-index: 1;
+        background:linear-gradient(to right,rgba(154, 193, 66, 0) , rgba(223, 202, 42, 0)) ;
+    }
+    .header-2>a>.foto{
+        margin-top: 1.75vh;
+        width: 20px;
+    }
+    .begin{
+        position: relative;
+        height: 190vh;
+        width:100%;
+        background-image:linear-gradient(to right,rgba(154, 193, 66, 0.25) , rgba(223, 202, 42, 0.5)) , url(images/main-background.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    .begin>.father{
+        position: absolute;
+        top: 20vh;
+        left: 10vw;
+    }
+    .begin>.father>.heading>h1{
+        font-size: 24px;
+        color: #fff;
+        margin-left: 9vw;
+    }
+    .begin>.father>.heading>h2{
+        font-size: 22px;
+        color: #fff;
+    }
+    .begin>.father>.float{
+        margin-left: -6.25vw;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.3vw;
+        align-items: center;
+        justify-content: center;
+    }
+    .begin>.father>.box{
+        margin-left: -3.75vw;
+        background-color: #fff;
+        box-shadow: 0px 2px 10px #333;
+        width: 100%;
+        height: 85vh;
+        display: block;
+    }
+    .begin>.father>.float>button{
+        width: 92.5px;
+        height: 45px;
+        outline: none;
+        border: none;
+    }
+    .begin>.father>.box>.inputs>form>.what-3>.wela{
+        margin-left: 10vw;
+    }
+    .begin>.father>.box>.inputs>form>.what-3>.todo{
+        margin-left: 10vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .begin>.box>.inputs>form>.what-3>.todo>select{
+        gap: 0px;
+        width: 50px;
+        height: 40px;
+        outline: none;
+    }
+    .begin>.father>.box>.inputs>form{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 2vw;
+        margin-top: 3vh;
+        margin-left: 0.25vw;
+    }
+    .begin>.box>.inputs>form>.what{
+        line-height: 30px;
+    }
+    .begin>.box>.inputs>form>.what>select{
+      width: 200px;
+      height: 40px;
+    }
+    .begin>.box>.inputs>form>.what-1>input{
+        width: 200px;
+        height: 40px;
+        outline: none;
+    }
+    .begin>.box>.inputs>form>.what-2{
+        line-height: 30px;
+    }
+    .begin>.box>.inputs>form>.what-2>select{
+        width: 200px;
+        height: 40px;
+    }
+    .begin>.box>.inputs>form>.what-3>.todo>input{
+        width: 200px;
+        height: 40px;
+        outline: none;
+    }
+    .begin>.box>.inputs>form>.what-3>.todo>select{
+        margin-top: 0.75vh;
+        width: 50px;
+        height: 40px;
+        outline: none;
+    }
+    .begin>.box>.inputs>form>.submit>button{
+        margin-top: 4vh;
+        background:linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1)) ;
+        width: 170px;
+        height: 40px;
+        border: 1px solid transparent;
+        color:#fff;
+        border-radius: 5px;
+        transition: all 0.5 ease-out;
+    }
+    .begin>.box>.inputs>form>.submit>button:hover{
+        background-color: #000;
+        color: #fff;
+        cursor: pointer;
+    }
+    .begin>.modal>.modal-content>input{
+     margin-left: 0vw;
+      width: 200px;
+    }
+    .begin>.modal>.modal-content>.phone-input-container>input{
+        width: 130px;
+    }
+    .begin-1{
+        position: relative;
+        height: 300vh;
+    }
+    .begin-1>.troe{
+        position: absolute;
+        top: 10vh;
+        left: 5vw;
+        background-color: linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1));
+        width: 90%;
+        height: 6.5vh;
+        border: 1px solid transparent;
+        border-radius: 5px;
+    }
+    .begin-1>.troe>h3{
+        margin-top: 0vh;
+        color: #fff;
+        text-indent: 1.5vw;
+    }
+    .begin-1>.bre-main{
+    position: absolute;
+    top: 35vh;
+    left: 4vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    align-items: center;
+    justify-content: center;
+    }
+    .begin-1>.bre-main>.bre-1{
+        background-color: #f8f8f8;
+        width: 280px;
+        height: 400px;
+        border: 1px solid gainsboro;
+        border-radius: 5px;
+    }
+    .begin-1>.bre-main>.bre-1>img{
+        width: 280px;
+        height: 300px;
+    }
+    .begin-1>.bre-main>.bre-1>p{
+        font-size: 14px;
+        text-indent: 10px;
+    }
+    .begin-1>.bre-main>.bre-1>h6{
+        color:linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1)) ;
+        margin-top: 0.5vh;
+        text-indent: 10px;
+        font-size: 18px;
+    }
+    .begin-1>a>button{
+        position: absolute;
+        top: 280vh;
+        left: 15vw;
+        width: 200px;
+        height: 40px;
+        background-color: #004d42;
+        color: #fff;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.5s ease-out;
+    }
+    .begin-1>a>button:hover{
+        background-color: #000;
+    }
+    .sale{
+        height: 140vh;
+    }
+    .sale>.for>.true{
+        width: 80vw;
+        height: 45vh;
+    }
+    .sale>.for>.smart>h2{
+        font-size: 16px;
+    }
+    .purchase{
+        position: relative;
+        height: 190vh;
+        background-image:  linear-gradient(to right,rgba(154, 193, 66, 0.25) , rgba(223, 202, 42, 0.5)), url(images/contactus.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .purchase>.moon{
+        position: absolute;
+    }
+    .purchase>.moon>.head{
+        margin-top: 5vh;
+        margin-left: 5vw;
+        color: #ffff;
+    }
+    .purchase>.moon>.head>h1{
+        font-size: 20px;
+    }
+    .purchase>.moon>.box-1{
+        position: absolute;
+        top: 20vh;
+        left: 5vw;
+        width: 90vw;
+        height: 140vh;
+        background-color: #fff;
+    }
+    .purchase>.moon>.box-1>.inputs-1{
+        margin-top: 5vh;
+        margin-left: 10vw;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .purchase>.moon>.box-1>.inputs-1>form{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .purchase>.moon>.box-1>.inputs-1>form>.sumbit{
+        margin-top: 3vh;
+        margin-left: 0vw;
+        border-radius: 10px;
+        background-color: #004d42;
+        color: #fff;
+        transition: all 0.5s ease-out;
+        border: 1px solid transparent;
+        cursor: pointer;
+    }
+    .purchase>.moon>.box-1>.inputs-1>form>.sumbit:hover{
+        background-color: #000;
+    }
+    .purchase>.moon>.box-1>.inputs-1>form>input{
+        width: 200px;
+        height: 50px;
+        outline: none;
+        text-indent: 10px;
+    }
+    .purchase>.moon>.box-1>.inputs-1>form>select{
+        width: 200px;
+        height: 50px;
+        z-index: 1;
+    }
+    .footer{
+        position: relative;
+        height: 190vh;
+    }
+    .footer>.extract{
+        position: absolute;
+        top: 5vh;
+       left: 7vw;
+        display: flex;
+        align-items: center;
+        gap: 70vw;
+        flex-wrap: wrap;
+    }
+    .footer>.extract>.quick-links>ul{
+        list-style: none;
+        line-height: 40px;
+    }
+    .footer>.extract>.quick-links>ul>li>a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .footer>.extract>.social{
+        margin-top: 2vh;
+    }
+    .footer>.extract>.social>ul{
+        list-style: none;
+        line-height: 40px;
+    }
+    .footer>.extract>.social>ul>li>a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .footer>.extract>.top{
+        margin-top: -10vh;
+        margin-left: -2vw;
+    }
+    .footer>.extract>.top>ul{
+        list-style: none;
+        line-height: 40px;
+        margin-left: 1vw;
+    }
+    .footer>.extract>.top>ul>li>a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .footer>.extract>.location{
+        margin-top: -5vh;
+    }
+    .footer>.extract>.location>ul{
+        list-style: none;
+        line-height: 40px;
+    }
+    .footer>.extract>.location>ul>li>a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .footer>.footer-imp{
+        position: absolute;
+        top: 180vh;
+        height: 9.75vh;
+        width: 100%;
+    }
+    .footer>.footer-imp>p{
+        margin-top: 0vh;
+        text-align: center;
+        color: #ffff;
+    }
+}
+
+/*Because height is distrubign me i am making this chagne*/
+@media (max-width:320px) and (min-height:600px) and (max-height:1000px){
+    #loading-screen {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background:linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1)); /* Background color for the loading screen */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999; /* Ensure it appears on top of your content */
+    }
+    
+    .loading-animation {
+        text-align: center;
+        color: #fff;
+    }
+    .loading-animation>.tree{
+      margin-left: -2vw;
+    }
+    .loading-animation>.flower{
+        margin-left: -2vw;
+    }
+    .loading-animation>.tree,.flower,.fruit{
+        font-size: 16px;
+    }
+    .loading-animation>.flower{
+    font-size: 17px;
+    }
+    .loading-animation>.tree,.flower,.fruit{
+        animation-name: sohaib;
+        animation-duration: 3s;
+        animation-delay: 0.5s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes sohaib{
+        0%{
+            transform: scale(1.4);
+        }
+        25%{
+            transform: scale(1.1);
+        }
+        75%{
+            transform: scale(1.3);
+        }
+        100%{
+            transform: scale(1.2);
+        }
+    }
+    .popup {
+        display: none;
+        position: fixed;
+        top: -12vh;
+        left: 0vw;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index:1000;
+    }    
+    .popup-content {
+        background-color: #fff;
+        width: 85%;
+        max-width: 320px;
+        margin: 100px auto;
+        margin-left: 7.5vw;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        position: relative;
+    }
+    header>.unorder-list{
+        display: none;
+    }
+    header>.fa-bars{
+        display: block;
+        cursor: pointer;
+        margin-left: 35vw;
+    }
+    header>.fa-times{
+        cursor: pointer;
+        margin-left: 35vw;
+    }
+    header{
+        position: fixed;
+        width: 100%;
+        height: 13vh;
+        top: 0;
+        left: 0;
+        display: flex;
+        gap: 1vw;
+        align-items: center;
+        transition: 0.6s;    
+        z-index: 999;
+        border-bottom: 1px solid gainsboro;
+        background:linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1));
+    }
+    .header-2{
+        position: absolute;
+        top: 10vh;
+        left: -5vw;
+        display: flex;
+        gap: 10vw;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border-bottom: none;
+        font-size: 20px;
+        z-index: 1;
+        background:linear-gradient(to right,rgba(154, 193, 66, 0) , rgba(223, 202, 42, 0)) ;
+    }
+    .header-2>a>.foto{
+        margin-top: 1.75vh;
+        width: 20px;
+    }
+    .begin{
+        position: relative;
+        height: 190vh;
+        width:100%;
+        background-image:linear-gradient(to right,rgba(154, 193, 66, 0.25) , rgba(223, 202, 42, 0.5)) , url(images/main-background.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    .begin>.father{
+        position: absolute;
+        top: 20vh;
+        left: 10vw;
+    }
+    .begin>.father>.heading>h1{
+        font-size: 24px;
+        color: #fff;
+        margin-left: 9vw;
+    }
+    .begin>.father>.heading>h2{
+        font-size: 22px;
+        color: #fff;
+    }
+    .begin>.father>.float{
+        margin-left: -6.25vw;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.3vw;
+        align-items: center;
+        justify-content: center;
+    }
+    .begin>.father>.box{
+        margin-left: -3.75vw;
+        background-color: #fff;
+        box-shadow: 0px 2px 10px #333;
+        width: 100%;
+        height: 85vh;
+        display: block;
+    }
+    .begin>.father>.float>button{
+        width: 92.5px;
+        height: 45px;
+        outline: none;
+        border: none;
+    }
+    .begin>.father>.box>.inputs>form>.what-3>.wela{
+        margin-left: 10vw;
+    }
+    .begin>.father>.box>.inputs>form>.what-3>.todo{
+        margin-left: 10vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .begin>.box>.inputs>form>.what-3>.todo>select{
+        gap: 0px;
+        width: 50px;
+        height: 40px;
+        outline: none;
+    }
+    .begin>.father>.box>.inputs>form{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 2vw;
+        margin-top: 3vh;
+        margin-left: 0.25vw;
+    }
+    .begin>.box>.inputs>form>.what{
+        line-height: 30px;
+    }
+    .begin>.box>.inputs>form>.what>select{
+      width: 200px;
+      height: 40px;
+    }
+    .begin>.box>.inputs>form>.what-1>input{
+        width: 200px;
+        height: 40px;
+        outline: none;
+    }
+    .begin>.box>.inputs>form>.what-2{
+        line-height: 30px;
+    }
+    .begin>.box>.inputs>form>.what-2>select{
+        width: 200px;
+        height: 40px;
+    }
+    .begin>.box>.inputs>form>.what-3>.todo>input{
+        width: 200px;
+        height: 40px;
+        outline: none;
+    }
+    .begin>.box>.inputs>form>.what-3>.todo>select{
+        margin-top: 0.75vh;
+        width: 50px;
+        height: 40px;
+        outline: none;
+    }
+    .begin>.box>.inputs>form>.submit>button{
+        margin-top: 4vh;
+        background: linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1));
+        width: 170px;
+        height: 40px;
+        border: 1px solid transparent;
+        color:#fff;
+        border-radius: 5px;
+        transition: all 0.5 ease-out;
+    }
+    .begin>.box>.inputs>form>.submit>button:hover{
+        background-color: #000;
+        color: #fff;
+        cursor: pointer;
+    }
+    .begin-1{
+        position: relative;
+        height: 270vh;
+    }
+    .begin-1>.troe{
+        position: absolute;
+        top: 10vh;
+        left: 5vw;
+        background-color: linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1));
+        width: 90%;
+        height: 6.5vh;
+        border: 1px solid transparent;
+        border-radius: 5px;
+    }
+    .begin-1>.troe>h3{
+        margin-top: 0vh;
+        color: #fff;
+        text-indent: 1.5vw;
+    }
+    .begin-1>.bre-main{
+    position: absolute;
+    top: 35vh;
+    left: 4vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    align-items: center;
+    justify-content: center;
+    }
+    .begin-1>.bre-main>.bre-1{
+        background-color: #f8f8f8;
+        width: 280px;
+        height: 400px;
+        border: 1px solid gainsboro;
+        border-radius: 5px;
+    }
+    .begin-1>.bre-main>.bre-1>img{
+        width: 280px;
+        height: 300px;
+    }
+    .begin-1>.bre-main>.bre-1>p{
+        font-size: 14px;
+        text-indent: 10px;
+    }
+    .begin-1>.bre-main>.bre-1>h6{
+        color: #000;
+        margin-top: 0.5vh;
+        text-indent: 10px;
+        font-size: 18px;
+    }
+    .begin-1>a>button{
+        position: absolute;
+        top: 250vh;
+        left: 15vw;
+        width: 200px;
+        height: 40px;
+        background: linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1));
+        color: #fff;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.5s ease-out;
+    }
+    .begin-1>a>button:hover{
+        background-color: #000;
+    }
+    .purchase{
+        position: relative;
+        height: 190vh;
+        background-image: linear-gradient(to right,rgba(154, 193, 66, 0.25) , rgba(223, 202, 42, 0.5)) , url(images/contactus.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .purchase>.moon{
+        position: absolute;
+    }
+    .purchase>.moon>.head{
+        margin-top: 5vh;
+        margin-left: 5vw;
+        color: #ffff;
+    }
+    .purchase>.moon>.head>h1{
+        font-size: 20px;
+    }
+    .purchase>.moon>.box-1{
+        position: absolute;
+        top: 20vh;
+        left: 5vw;
+        width: 90vw;
+        height: 140vh;
+        background-color: #fff;
+    }
+    .purchase>.moon>.box-1>.inputs-1{
+        margin-top: 5vh;
+        margin-left: 10vw;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .purchase>.moon>.box-1>.inputs-1>form{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .purchase>.moon>.box-1>.inputs-1>form>.sumbit{
+        margin-top: 3vh;
+        margin-left: 0vw;
+        border-radius: 10px;
+        background:linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1)) ;
+        color: #fff;
+        transition: all 0.5s ease-out;
+        border: 1px solid transparent;
+        cursor: pointer;
+    }
+    .purchase>.moon>.box-1>.inputs-1>form>.sumbit:hover{
+        background-color: #000;
+    }
+    .purchase>.moon>.box-1>.inputs-1>form>input{
+        width: 200px;
+        height: 50px;
+        outline: none;
+        text-indent: 10px;
+    }
+    .purchase>.moon>.box-1>.inputs-1>form>select{
+        width: 200px;
+        height: 50px;
+        z-index: 1;
+    }
+    .footer{
+        position: relative;
+        height: 170vh;
+        background: linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1));
+    }
+    .footer>.extract{
+        position: absolute;
+        top: 5vh;
+       left: 7vw;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 35vh;
+    }
+    .footer>.extract>.quick-links>ul{
+        list-style: none;
+        line-height: 40px;
+    }
+    .footer>.extract>.quick-links>ul>li>a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .footer>.extract>.social>ul{
+        list-style: none;
+        line-height: 40px;
+    }
+    .footer>.extract>.social>ul>li>a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .footer>.extract>.top{
+        margin-top: -10vh;
+        margin-left: -2vw;
+    }
+    .footer>.extract>.top>ul{
+        list-style: none;
+        line-height: 40px;
+    }
+    .footer>.extract>.top>ul>li>a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .footer>.extract>.location{
+        margin-top: -7vh;
+    }
+    .footer>.extract>.location>ul{
+        list-style: none;
+        line-height: 40px;
+    }
+    .footer>.extract>.location>ul>li>a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .footer>.footer-imp{
+        position: absolute;
+        top: 160vh;
+        background: linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1));
+        border: 1px solid #fff;
+        height: 9.75vh;
+        width: 100%;
+    }
+    .footer>.footer-imp>p{
+        margin-top: 0vh;
+        text-align: center;
+        color: #ffff;
+    }
+}
+/*Which is going to ends here*/
+@media (min-width: 321px) and (max-width: 375px){
+    #loading-screen {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background:linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1)) ; /* Background color for the loading screen */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999; /* Ensure it appears on top of your content */
+    }
+    
+    .loading-animation {
+        text-align: center;
+        color: #fff;
+    }
+    .loading-animation>.tree{
+      margin-left: -2vw;
+    }
+    .loading-animation>.flower{
+        margin-left: -2vw;
+    }
+    .loading-animation>.tree,.flower,.fruit{
+        font-size: 16px;
+    }
+    .loading-animation>.flower{
+    font-size: 17px;
+    }
+    .loading-animation>.tree,.flower,.fruit{
+        animation-name: sohaib;
+        animation-duration: 3s;
+        animation-delay: 0.5s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes sohaib{
+        0%{
+            transform: scale(1.4);
+        }
+        25%{
+            transform: scale(1.1);
+        }
+        75%{
+            transform: scale(1.3);
+        }
+        100%{
+            transform: scale(1.2);
+        }
+    }
+    .popup {
+        display: none;
+        position: fixed;
+        top: -12vh;
+        left: 0vw;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 1000;
+    }    
+    .popup-content {
+        background-color: #fff;
+        width: 85%;
+        max-width: 320px;
+        margin: 100px auto;
+        margin-left: 7.5vw;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        position: relative;
+    }
+    header>.unorder-list{
+        display: none;
+    }
+    header>.fa-bars{
+        display: block;
+        cursor: pointer;
+        margin-left: 35vw;
+    }
+    header>.fa-times{
+        cursor: pointer;
+        margin-left: 35vw;
+    }
+    header{
+        position: fixed;
+        width: 100%;
+        height: 13vh;
+        top: 0;
+        left: 0;
+        display: flex;
+        gap: 1vw;
+        align-items: center;
+        transition: 0.6s;    
+        z-index: 999;
+        border-bottom: 1px solid gainsboro;
+        background: linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1));
+    }
+    .header-2{
+        position: absolute;
+        top: 10vh;
+        left: 0vw;
+        display: flex;
+        gap: 10vw;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border-bottom: none;
+        font-size: 20px;
+        z-index: 1;
+        background:linear-gradient(to right,rgba(154, 193, 66, 0) , rgba(223, 202, 42, 0));
+    }
+    .header-2>a>.foto{
+        margin-top: 1.75vh;
+        width: 20px;
+    }
+    .begin{
+        position: relative;
+        height: 190vh;
+        width:100%;
+        background-image:linear-gradient(to right,rgba(154, 193, 66, 0.25) , rgba(223, 202, 42, 0.5)) , url(images/main-background.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    .begin>.father{
+        position: absolute;
+        top: 20vh;
+        left: 10vw;
+    }
+    .begin>.father>.heading{
+        margin-left: 1vw;
+    }
+    .begin>.father>.heading>h1{
+        font-size: 24px;
+        color: #fff;
+        margin-left: 10vw;
+    }
+    .begin>.father>.heading>h2{
+        font-size: 23px;
+        color: #fff;
+    }
+    .begin>.father>.float{
+        margin-left: -2vw;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1vw;
+        align-items: center;
+        justify-content: center;
+    }
+    .begin>.father>.box{
+        margin-left: -1vw;
+        background-color: #fff;
+        box-shadow: 0px 2px 10px #333;
+        width: 100%;
+        height: 85vh;
+        display: block;
+    }
+    .begin>.father>.float>button{
+        width: 99px;
+        height: 45px;
+        outline: none;
+        border: none;
+    }
+    .begin>.father>.box>.inputs>form>.what-3>.wela{
+        margin-left: 13vw;
+    }
+    .begin>.father>.box>.inputs>form>.what-3>.todo{
+        margin-left: 13vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .begin>.box>.inputs>form>.what-3>.todo>select{
+        gap: 0px;
+        width: 50px;
+        height: 40px;
+        outline: none;
+    }
+    .begin>.father>.box>.inputs>form{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 2vw;
+        margin-top: 3vh;
+        margin-left: -5vw;
+    }
+    .begin>.box>.inputs>form>.what{
+        line-height: 30px;
+    }
+    .begin>.box>.inputs>form>.what>select{
+      width: 200px;
+      height: 40px;
+    }
+    .begin>.box>.inputs>form>.what-1>input{
+        width: 200px;
+        height: 40px;
+        outline: none;
+    }
+    .begin>.box>.inputs>form>.what-2{
+        line-height: 30px;
+    }
+    .begin>.box>.inputs>form>.what-2>select{
+        width: 200px;
+        height: 40px;
+    }
+    .begin>.box>.inputs>form>.what-3>.todo>input{
+        width: 200px;
+        height: 40px;
+        outline: none;
+    }
+    .begin>.box>.inputs>form>.what-3>.todo>select{
+        margin-top: 0.75vh;
+        width: 50px;
+        height: 40px;
+        outline: none;
+    }
+    .begin>.box>.inputs>form>.submit>button{
+        margin-top: 4vh;
+        background:linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1));
+        width: 170px;
+        height: 40px;
+        border: 1px solid transparent;
+        color:#fff;
+        border-radius: 5px;
+        transition: all 0.5 ease-out;
+    }
+    .begin>.box>.inputs>form>.submit>button:hover{
+        background-color: #000;
+        color: #fff;
+        cursor: pointer;
+    }
+    .begin-1{
+        position: relative;
+        height: 300vh;
+    }
+    .begin-1>.troe{
+        position: absolute;
+        top: 10vh;
+        left: 5vw;
+        background-color: linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1));
+        width: 90%;
+        height: 6.5vh;
+        border: 1px solid linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1));
+        border-radius: 5px;
+    }
+    .begin-1>.troe>h3{
+        margin-top: 0vh;
+        color: #fff;
+        text-indent: 1.5vw;
+    }
+    .begin-1>.bre-main{
+    position: absolute;
+    top: 35vh;
+    left: 6vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    align-items: center;
+    justify-content: center;
+    }
+    .begin-1>.bre-main>.bre-1{
+        background-color: #f8f8f8;
+        width: 320px;
+        height: 400px;
+        border: 1px solid gainsboro;
+        border-radius: 5px;
+    }
+    .begin-1>.bre-main>.bre-1>img{
+        width: 320px;
+        height: 300px;
+    }
+    .begin-1>.bre-main>.bre-1>p{
+        font-size: 14px;
+        text-indent: 10px;
+    }
+    .begin-1>.bre-main>.bre-1>h6{
+        color: #000;
+        margin-top: 0.5vh;
+        text-indent: 10px;
+        font-size: 18px;
+    }
+    .begin-1>a>button{
+        position: absolute;
+        top: 280vh;
+        left: 18vw;
+        width: 200px;
+        height: 40px;
+        background:linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1));
+        color: #fff;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.5s ease-out;
+    }
+    .begin-1>a>button:hover{
+        background-color: #000;
+    }
+    .sale{
+        height: 140vh;
+    }
+    .sale>.for>.true{
+        width: 80vw;
+        height: 45vh;
+    }
+    .sale>.for>.smart>h2{
+        font-size: 16px;
+    }
+    .purchase{
+        position: relative;
+        height: 190vh;
+        background-image: linear-gradientlinear-gradient(to right,rgba(154, 193, 66, 0.25) , rgba(223, 202, 42, 0.5)) , url(images/contactus.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .purchase>.moon{
+        position: absolute;
+    }
+    .purchase>.moon>.head{
+        margin-top: 5vh;
+        margin-left: 5vw;
+        color: #ffff;
+    }
+    .purchase>.moon>.head>h1{
+        font-size: 20px;
+    }
+    .purchase>.moon>.box-1{
+        position: absolute;
+        top: 23vh;
+        left: 5vw;
+        width: 90vw;
+        height: 140vh;
+        background-color: #fff;
+    }
+    .purchase>.moon>.box-1>.inputs-1{
+        margin-top: 5vh;
+        margin-left: 13vw;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .purchase>.moon>.box-1>.inputs-1>form{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .purchase>.moon>.box-1>.inputs-1>form>.sumbit{
+        margin-top: 3vh;
+        margin-left: 0vw;
+        border-radius: 10px;
+        background: linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1));
+        color: #fff;
+        transition: all 0.5s ease-out;
+        border: 1px solid transparent;
+        cursor: pointer;
+    }
+    .purchase>.moon>.box-1>.inputs-1>form>.sumbit:hover{
+        background-color: #000;
+    }
+    .purchase>.moon>.box-1>.inputs-1>form>input{
+        width: 230px;
+        height: 50px;
+        outline: none;
+        text-indent: 10px;
+    }
+    .purchase>.moon>.box-1>.inputs-1>form>select{
+        width: 230px;
+        height: 50px;
+        z-index: 1;
+    }
+    .footer{
+        position: relative;
+        height: 220vh;
+        background: linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1));
+    }
+    .footer>.extract{
+        position: absolute;
+        top: 5vh;
+       left: 7vw;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 65vw;
+    }
+    .footer>.extract>.quick-links>ul{
+        list-style: none;
+        line-height: 40px;
+    }
+    .footer>.extract>.quick-links>ul>li>a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .footer>.extract>.social>ul{
+        list-style: none;
+        line-height: 40px;
+    }
+    .footer>.extract>.social>ul>li>a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .footer>.extract>.top{
+        margin-top: -10vh;
+        margin-left: 0vw;
+    }
+    .footer>.extract>.top>ul{
+        list-style: none;
+        line-height: 40px;
+    }
+    .footer>.extract>.top>ul>li>a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .footer>.extract>.location{
+        margin-top: -10vh;
+    }
+    .footer>.extract>.location>ul{
+        list-style: none;
+        line-height: 40px;
+    }
+    .footer>.extract>.location>ul>li>a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .footer>.footer-imp{
+        position: absolute;
+        top: 210vh;
+        border: 1px solid #fff;
+        background: linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1));
+        height: 9.75vh;
+        width: 100%;
+    }
+    .footer>.footer-imp>p{
+        margin-top: 2vh;
+        text-align: center;
+        color: #ffff;
+    }
+}
+/*@media (min-width:321px) and (max-width:375px)and (max-height:667px){
+    .begin-1{
+        height: 260vh;
+    }
+    .begin-1>a>button{
+        top: 245vh;
+    }
+    .footer{
+        height: 160vh;
+    }
+    .footer>.extract>.top{
+        margin-top: -10vh;
+        margin-left: 0vw;
+    }
+    .footer>.footer-imp{
+        top: 150vh;
+    }
+}
+@media (min-width:321px) and (max-width:375px) and (min-height:542px) and (max-height:609px){
+    .begin-1{
+        height: 290vh;
+    }
+    .begin-1>a>button{
+        top: 275vh;
+    }
+    .footer{
+        height: 190vh;
+    }
+    .footer>.footer-imp{
+        top: 180vh;
+    }
+}*/
+          /*---------------425px ki screen pai aise nazar aye gi website-------------------*/
+          @media (min-width: 376px) and (max-width: 425px){
+            #loading-screen {
+                position: fixed;
+                width: 100%;
+                height: 100%;
+                background:linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1)) ; /* Background color for the loading screen */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                z-index: 9999; /* Ensure it appears on top of your content */
+            }
+            
+            .loading-animation {
+                text-align: center;
+                color: #fff;
+            }
+            .loading-animation>.tree{
+              margin-left: -2vw;
+            }
+            .loading-animation>.flower{
+                margin-left: -2vw;
+            }
+            .loading-animation>.tree,.flower,.fruit{
+                font-size: 16px;
+            }
+            .loading-animation>.flower{
+            font-size: 17px;
+            }
+            .loading-animation>.tree,.flower,.fruit{
+                animation-name: sohaib;
+                animation-duration: 3s;
+                animation-delay: 0.5s;
+                animation-iteration-count: infinite;
+            }
+            @keyframes sohaib{
+                0%{
+                    transform: scale(1.4);
+                }
+                25%{
+                    transform: scale(1.1);
+                }
+                75%{
+                    transform: scale(1.3);
+                }
+                100%{
+                    transform: scale(1.2);
+                }
+            }
+            .popup {
+                display: none;
+                position: fixed;
+                top: -12vh;
+                left: 0vw;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.7);
+                z-index: 1000;
+            }    
+            .popup-content {
+                background-color: #fff;
+                width: 85%;
+                max-width: 320px;
+                margin: 100px auto;
+                margin-left: 12vw;
+                padding: 20px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+                position: relative;
+            }
+            header>.unorder-list{
+                display: none;
+            }
+            header>.fa-bars{
+                display: block;
+                cursor: pointer;
+                margin-left: 35vw;
+            }
+            header>.fa-times{
+                cursor: pointer;
+                margin-left: 35vw;
+            }
+            header{
+                position: fixed;
+                width: 100%;
+                height: 13vh;
+                top: 0;
+                left: 0;
+                display: flex;
+                gap: 1vw;
+                align-items: center;
+                transition: 0.6s;    
+                z-index: 999;
+                border-bottom: 1px solid gainsboro;
+                background:linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1)) ;
+            }
+            .header-2{
+                position: absolute;
+                top: 10vh;
+                left: 0vw;
+                display: flex;
+                gap: 10vw;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                border-bottom: none;
+                font-size: 20px;
+                z-index: 1;
+                background: linear-gradient(to right,rgba(154, 193, 66, 0) , rgba(223, 202, 42, 0));
+            }
+            .header-2>a>.foto{
+                margin-top: 1.75vh;
+                width: 20px;
+            }
+            .begin{
+                position: relative;
+                height: 190vh;
+                width:100%;
+                background-image:linear-gradient(to right,rgba(154, 193, 66, 0.25) , rgba(223, 202, 42, 0.5))  , url(images/main-background.jpg);
+                background-size: cover;
+                background-position: center center;
+            }
+            .begin>.father{
+                position: absolute;
+                top: 20vh;
+                left: 10vw;
+            }
+            .begin>.father>.heading{
+                margin-left: 2vw;
+            }
+            .begin>.father>.heading>h1{
+                font-size: 25px;
+                color: #fff;
+                margin-left: 10vw;
+            }
+            .begin>.father>.heading>h2{
+                font-size: 24px;
+                color: #fff;
+                margin-left: 1vw;
+                letter-spacing: 0.75px;
+            }
+            .begin>.father>.float{
+                margin-left: -2vw;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 1vw;
+                align-items: center;
+                justify-content: center;
+            }
+            .begin>.father>.box{
+                margin-left: -1vw;
+                background-color: #fff;
+                box-shadow: 0px 2px 10px #333;
+                width: 100%;
+                height: 85vh;
+                display: block;
+            }
+            .begin>.father>.float>button{
+                width: 111px;
+                height: 45px;
+                outline: none;
+                border: none;
+            }
+            .begin>.father>.box>.inputs>form>.what-3>.wela{
+                margin-left: 13vw;
+            }
+            .begin>.father>.box>.inputs>form>.what-3>.todo{
+                margin-left: 13vw;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .begin>.box>.inputs>form>.what-3>.todo>select{
+                gap: 0px;
+                width: 50px;
+                height: 40px;
+                outline: none;
+            }
+            .begin>.father>.box>.inputs>form{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items: center;
+                gap: 2vw;
+                margin-top: 3vh;
+                margin-left: -5vw;
+            }
+            .begin>.box>.inputs>form>.what{
+                line-height: 30px;
+            }
+            .begin>.box>.inputs>form>.what>select{
+              width: 200px;
+              height: 40px;
+            }
+            .begin>.box>.inputs>form>.what-1>input{
+                width: 200px;
+                height: 40px;
+                outline: none;
+            }
+            .begin>.box>.inputs>form>.what-2{
+                line-height: 30px;
+            }
+            .begin>.box>.inputs>form>.what-2>select{
+                width: 200px;
+                height: 40px;
+            }
+            .begin>.box>.inputs>form>.what-3>.todo>input{
+                width: 200px;
+                height: 40px;
+                outline: none;
+            }
+            .begin>.box>.inputs>form>.what-3>.todo>select{
+                margin-top: 0.75vh;
+                width: 50px;
+                height: 40px;
+                outline: none;
+            }
+            .begin>.box>.inputs>form>.submit>button{
+                margin-top: 4vh;
+                background: linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1));
+                width: 170px;
+                height: 40px;
+                border: 1px solid transparent;
+                color:#fff;
+                border-radius: 5px;
+                transition: all 0.5 ease-out;
+            }
+            .begin>.box>.inputs>form>.submit>button:hover{
+                background-color: #000;
+                color: #fff;
+                cursor: pointer;
+            }
+            .begin-1{
+                position: relative;
+                height: 300vh;
+            }
+            .begin-1>.troe{
+                position: absolute;
+                top: 10vh;
+                left: 5vw;
+                background-color:linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1)) ;
+                width: 90%;
+                height: 6.5vh;
+                border: 1px solid linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1));
+                border-radius: 5px;
+            }
+            .begin-1>.troe>h3{
+                margin-top: 0vh;
+                color: #fff;
+                text-indent: 1.5vw;
+            }
+            .begin-1>.bre-main{
+            position: absolute;
+            top: 32vh;
+            left: 4vw;
+            display: flex;
+            flex-direction: column;
+            gap: 5vh;
+            align-items: center;
+            justify-content: center;
+            }
+            .begin-1>.bre-main>.bre-1{
+                background-color: #f8f8f8;
+                width: 380px;
+                height: 400px;
+                border: 1px solid gainsboro;
+                border-radius: 5px;
+            }
+            .begin-1>.bre-main>.bre-1>img{
+                width: 380px;
+                height: 300px;
+            }
+            .begin-1>.bre-main>.bre-1>p{
+                font-size: 14px;
+                text-indent: 10px;
+            }
+            .begin-1>.bre-main>.bre-1>h6{
+                color: #000;
+                margin-top: 0.5vh;
+                text-indent: 10px;
+                font-size: 18px;
+            }
+            .begin-1>a>button{
+                position: absolute;
+                top: 280vh;
+                left: 22vw;
+                width: 200px;
+                height: 40px;
+                background: linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1));
+                color: #fff;
+                border: 1px solid transparent;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: all 0.5s ease-out;
+            }
+            .begin-1>a>button:hover{
+                background-color: #000;
+            }
+            .sale{
+                height: 140vh;
+            }
+            .sale>.for>.true{
+                width: 80vw;
+                height: 45vh;
+            }
+            .sale>.for>.smart{
+                font-size: 14px;
+            }
+            .purchase{
+                position: relative;
+                height: 190vh;
+                background-image: linear-gradient(to right,rgba(154, 193, 66, 0.25) , rgba(223, 202, 42, 0.5)) , url(images/contactus.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .purchase>.moon{
+                position: absolute;
+            }
+            .purchase>.moon>.head{
+                margin-top: 5vh;
+                margin-left: 5vw;
+                color: #ffff;
+            }
+            .purchase>.moon>.head>h1{
+                font-size: 20px;
+            }
+            .purchase>.moon>.box-1{
+                position: absolute;
+                top: 23vh;
+                left: 5vw;
+                width: 90vw;
+                height: 140vh;
+                background-color: #fff;
+            }
+            .purchase>.moon>.box-1>.inputs-1{
+                margin-top: 5vh;
+                margin-left: 12vw;
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 20px;
+            }
+            .purchase>.moon>.box-1>.inputs-1>form{
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 20px;
+            }
+            .purchase>.moon>.box-1>.inputs-1>form>.sumbit{
+                margin-top: 3vh;
+                margin-left: 0vw;
+                border-radius: 10px;
+                background:linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1)) ;
+                color: #fff;
+                transition: all 0.5s ease-out;
+                border: 1px solid transparent;
+                cursor: pointer;
+            }
+            .purchase>.moon>.box-1>.inputs-1>form>.sumbit:hover{
+                background-color: #000;
+            }
+            .purchase>.moon>.box-1>.inputs-1>form>input{
+                width: 270px;
+                height: 50px;
+                outline: none;
+                text-indent: 10px;
+            }
+            .purchase>.moon>.box-1>.inputs-1>form>select{
+                width: 270px;
+                height: 50px;
+                z-index: 1;
+            }
+            .footer{
+                position: relative;
+                height: 190vh;
+                background:linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1)) ;
+            }
+            .footer>.extract{
+                position: absolute;
+                top: 5vh;
+               left: 7vw;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 60vw;
+            }
+            .footer>.extract>.quick-links>ul{
+                list-style: none;
+                line-height: 40px;
+            }
+            .footer>.extract>.quick-links>ul>li>a{
+                text-decoration: none;
+                color: #fff;
+            }
+            .footer>.extract>.social>ul{
+                list-style: none;
+                line-height: 40px;
+            }
+            .footer>.extract>.social>ul>li>a{
+                text-decoration: none;
+                color: #fff;
+            }
+            .footer>.extract>.top{
+                margin-top: -10vh;
+                margin-left: 0vw;
+            }
+            .footer>.extract>.top>ul{
+                list-style: none;
+                line-height: 40px;
+            }
+            .footer>.extract>.top>ul>li>a{
+                text-decoration: none;
+                color: #fff;
+            }
+            .footer>.extract>.location{
+                margin-top: -15vh;
+            }
+            .footer>.extract>.location>ul{
+                list-style: none;
+                line-height: 40px;
+            }
+            .footer>.extract>.location>ul>li>a{
+                text-decoration: none;
+                color: #fff;
+            }
+            .footer>.footer-imp{
+                position: absolute;
+                top: 180vh;
+                background: linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1));
+                border: 1px solid white;
+                height: 9.75vh;
+                width: 100%;
+            }
+            .footer>.footer-imp>p{
+                margin-top: 2vh;
+                text-align: center;
+                color: #ffff;
+            }
+        }
+        @media (min-width:376px) and (max-width:425px)and (min-height:601px) and (max-height:667px){
+            .begin-1{
+                height: 260vh;
+            }
+            .begin-1>a>button{
+                top: 245vh;
+            }
+            .footer{
+                height: 160vh;
+            }
+            .footer>.footer-imp{
+                top: 150vh;
+            }
+        }
+        @media (min-width:376px) and (max-width:425px) and (min-height:668px) and (max-height:705px){
+            .begin-1{
+                height: 250vh;
+            }
+            .begin-1>a>button{
+                top: 240vh;
+            }
+            .footer{
+                height: 150vh;
+            }
+            .footer>.footer-imp{
+                top: 140vh;
+            }
+            .purchase{
+                height: 170vh;
+            }
+            .purchase>.moon>.box-1{
+                height: 120vh;
+            }
+        }
+        @media (min-width:376px) and (max-width:425px) and (min-height:706px) and (max-height:773px){
+            .begin-1{
+                height: 230vh;
+            }
+            .begin-1>a>button{
+                top: 220vh;
+            }
+            .footer{
+                height: 165vh;
+            }
+            .footer>.footer-imp{
+                top: 155vh;
+            }
+            .purchase{
+                height: 170vh;
+            }
+            .purchase>.moon>.box-1{
+                height: 110vh;
+            }
+        }
+        @media (min-width:376px) and (max-width:425px) and (min-height:774px) and (max-height:840px){
+            .begin-1{
+                height: 230vh;
+            }
+            .begin-1>a>button{
+                top: 220vh;
+            }
+            .footer{
+                height: 160vh;
+            }
+            .footer>.footer-imp{
+                top: 150vh;
+            }
+            .purchase{
+                height: 170vh;
+            }
+            .purchase>.moon>.box-1{
+                height: 110vh;
+            }
+        }
+        @media (min-width:376px) and (max-width:425px) and (min-height:841px) and (max-height:896px){
+            .begin{
+                height: 170vh;
+            }
+            .begin>.father>.box{
+                height: 70vh;
+            }
+            .begin-1{
+                height: 210vh;
+            }
+            .begin-1>a>button{
+                top: 200vh;
+            }
+            .footer{
+                height: 150vh;
+            }
+            .footer>.footer-imp{
+                top: 140vh;
+            }
+            .purchase{
+                height: 150vh;
+            }
+            .purchase>.moon>.box-1{
+                height: 100vh;
+            }
+        }
+        @media (min-width:376px) and (max-width:425px) and (min-height:896px) and (max-height:915px){
+            .begin{
+                height: 170vh;
+            }
+            .begin>.father>.box{
+                height: 60vh;
+            }
+            .begin-1{
+                height: 200vh;
+            }
+            .begin-1>a>button{
+                top: 190vh;
+            }
+            .footer{
+                height: 150vh;
+            }
+            .footer>.footer-imp{
+                top: 140vh;
+            }
+            .purchase{
+                height: 150vh;
+            }
+            .purchase>.moon>.box-1{
+                height: 100vh;
+            }
+        }
+        /*------------Agr max width 426-480 hogi to aisa nazar aye ga---------------*/      
+        @media (min-width: 426px) and (max-width: 480px){
+            #loading-screen {
+                position: fixed;
+                width: 100%;
+                height: 100%;
+                background:linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1)) ; /* Background color for the loading screen */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                z-index: 9999; /* Ensure it appears on top of your content */
+            }
+            
+            .loading-animation {
+                text-align: center;
+                color: #fff;
+            }
+            .loading-animation>.tree{
+              margin-left: -2vw;
+            }
+            .loading-animation>.flower{
+                margin-left: -2vw;
+            }
+            .loading-animation>.tree,.flower,.fruit{
+                font-size: 16px;
+            }
+            .loading-animation>.flower{
+            font-size: 17px;
+            }
+            .loading-animation>.tree,.flower,.fruit{
+                animation-name: sohaib;
+                animation-duration: 3s;
+                animation-delay: 0.5s;
+                animation-iteration-count: infinite;
+            }
+            @keyframes sohaib{
+                0%{
+                    transform: scale(1.4);
+                }
+                25%{
+                    transform: scale(1.1);
+                }
+                75%{
+                    transform: scale(1.3);
+                }
+                100%{
+                    transform: scale(1.2);
+                }
+            }
+            .popup {
+                display: none;
+                position: fixed;
+                top: -12vh;
+                left: 0vw;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.7);
+                z-index: 1000;
+            }    
+            .popup-content {
+                background-color: #fff;
+                width: 85%;
+                max-width: 320px;
+                margin: 100px auto;
+                margin-left: 12vw;
+                padding: 20px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+                position: relative;
+            }
+            header>.unorder-list{
+                display: none;
+            }
+            header>.fa-bars{
+                display: block;
+                cursor: pointer;
+                margin-left: 35vw;
+            }
+            header>.fa-times{
+                cursor: pointer;
+                margin-left: 35vw;
+            }
+            header{
+                position: absolute;
+                width: 100%;
+                height: 13vh;
+                top: 0;
+                left: 0;
+                display: flex;
+                gap: 1vw;
+                align-items: center;
+                transition: 0.6s;    
+                z-index: 999;
+                border-bottom: 1px solid gainsboro;
+                background:linear-gradient(to right,rgba(154, 193, 66, 1) , rgba(223, 202, 42, 1));
+            }
+            .header-2{
+                position: absolute;
+                top: 10vh;
+                left: -3vw;
+                display: flex;
+                gap: 10vw;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                border-bottom: none;
+                font-size: 20px;
+                z-index: 1;
+                background:linear-gradient(to right,rgba(154, 193, 66, 0) , rgba(223, 202, 42, 0)) ;
+            }
+            .header-2>a>.foto{
+                margin-top: 1.75vh;
+                width: 20px;
+            }
+            .begin{
+                position: relative;
+                height: 190vh;
+                width:100%;
+                background-image:linear-gradient(to right,rgba(154, 193, 66, 0.25) , rgba(223, 202, 42, 0.5))  , url(images/main-background.jpg);
+                background-size: cover;
+                background-position: center center;
+            }
+            .begin>.father{
+                position: absolute;
+                top: 20vh;
+                left: 10vw;
+            }
+            .begin>.father>.heading{
+                margin-left: 2vw;
+            }
+            .begin>.father>.heading>h1{
+                font-size: 25px;
+                color: #fff;
+                margin-left: 10vw;
+            }
+            .begin>.father>.heading>h2{
+                font-size: 24px;
+                color: #fff;
+                margin-left: 1vw;
+                letter-spacing: 0.75px;
+            }
+            .begin>.father>.float{
+                margin-left: -2vw;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 1vw;
+                align-items: center;
+                justify-content: center;
+            }
+            .begin>.father>.box{
+                margin-left: -1vw;
+                background-color: #fff;
+                box-shadow: 0px 2px 10px #333;
+                width: 100%;
+                height: 85vh;
+                display: block;
+            }
+            .begin>.father>.float>button{
+                width: 111px;
+                height: 45px;
+                outline: none;
+                border: none;
+            }
+            .begin>.father>.box>.inputs>form>.what-3>.wela{
+                margin-left: 13vw;
+            }
+            .begin>.father>.box>.inputs>form>.what-3>.todo{
+                margin-left: 13vw;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .begin>.box>.inputs>form>.what-3>.todo>select{
+                gap: 0px;
+                width: 50px;
+                height: 40px;
+                outline: none;
+            }
+            .begin>.father>.box>.inputs>form{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items: center;
+                gap: 2vw;
+                margin-top: 3vh;
+                margin-left: -5vw;
+            }
+            .begin>.box>.inputs>form>.what{
+                line-height: 30px;
+            }
+            .begin>.box>.inputs>form>.what>select{
+              width: 200px;
+              height: 40px;
+            }
+            .begin>.box>.inputs>form>.what-1>input{
+                width: 200px;
+                height: 40px;
+                outline: none;
+            }
+            .begin>.box>.inputs>form>.what-2{
+                line-height: 30px;
+            }
+            .begin>.box>.inputs>form>.what-2>select{
+                width: 200px;
+                height: 40px;
+            }
+            .begin>.box>.inputs>form>.what-3>.todo>input{
+                width: 200px;
+                height: 40px;
+                outline: none;
+            }
+            .begin>.box>.inputs>form>.what-3>.todo>select{
+                margin-top: 0.75vh;
+                width: 50px;
+                height: 40px;
+                outline: none;
+            }
+            .begin>.box>.inputs>form>.submit>button{
+                margin-top: 4vh;
+                background-color: #004d42;
+                width: 170px;
+                height: 40px;
+                border: 1px solid transparent;
+                color:#fff;
+                border-radius: 5px;
+                transition: all 0.5 ease-out;
+            }
+            .begin>.box>.inputs>form>.submit>button:hover{
+                background-color: #000;
+                color: #fff;
+                cursor: pointer;
+            }
+            .begin-1{
+                position: relative;
+                height: 300vh;
+            }
+            .begin-1>.troe{
+                position: absolute;
+                top: 10vh;
+                left: 5vw;
+                width: 90%;
+                height: 6.5vh;
+                border-radius: 5px;
+            }
+            .begin-1>.troe>h3{
+                margin-top: 0vh;
+                color: #fff;
+                text-indent: 1.5vw;
+            }
+            .begin-1>.bre-main{
+            position: absolute;
+            top: 32vh;
+            left: 4vw;
+            display: flex;
+            flex-direction: column;
+            gap: 5vh;
+            align-items: center;
+            justify-content: center;
+            }
+            .begin-1>.bre-main>.bre-1{
+                background-color: #f8f8f8;
+                width: 380px;
+                height: 400px;
+                border: 1px solid gainsboro;
+                border-radius: 5px;
+            }
+            .begin-1>.bre-main>.bre-1>img{
+                width: 380px;
+                height: 300px;
+            }
+            .begin-1>.bre-main>.bre-1>p{
+                font-size: 14px;
+                text-indent: 10px;
+            }
+            .begin-1>.bre-main>.bre-1>h6{
+                color: #004d42;
+                margin-top: 0.5vh;
+                text-indent: 10px;
+                font-size: 18px;
+            }
+            .begin-1>a>button{
+                position: absolute;
+                top: 280vh;
+                left: 22vw;
+                width: 200px;
+                height: 40px;
+                background-color: #004d42;
+                color: #fff;
+                border: 1px solid transparent;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: all 0.5s ease-out;
+            }
+            .begin-1>a>button:hover{
+                background-color: #000;
+            }
+            .purchase{
+                position: relative;
+                height: 190vh;
+                background-image: linear-gradient(to right,rgba(154, 193, 66, 0.25) , rgba(223, 202, 42, 0.5)) , url(images/contactus.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .purchase>.moon{
+                position: absolute;
+            }
+            .purchase>.moon>.head{
+                margin-top: 5vh;
+                margin-left: 5vw;
+                color: #ffff;
+            }
+            .purchase>.moon>.head>h1{
+                font-size: 20px;
+            }
+            .purchase>.moon>.box-1{
+                position: absolute;
+                top: 23vh;
+                left: 5vw;
+                width: 90vw;
+                height: 140vh;
+                background-color: #fff;
+            }
+            .purchase>.moon>.box-1>.inputs-1{
+                margin-top: 5vh;
+                margin-left: 12vw;
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 20px;
+            }
+            .purchase>.moon>.box-1>.inputs-1>form{
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 20px;
+            }
+            .purchase>.moon>.box-1>.inputs-1>form>.sumbit{
+                margin-top: 3vh;
+                margin-left: 0vw;
+                border-radius: 10px;
+                background-color: #004d42;
+                color: #fff;
+                transition: all 0.5s ease-out;
+                border: 1px solid transparent;
+                cursor: pointer;
+            }
+            .purchase>.moon>.box-1>.inputs-1>form>.sumbit:hover{
+                background-color: #000;
+            }
+            .purchase>.moon>.box-1>.inputs-1>form>input{
+                width: 270px;
+                height: 50px;
+                outline: none;
+                text-indent: 10px;
+            }
+            .purchase>.moon>.box-1>.inputs-1>form>select{
+                width: 270px;
+                height: 50px;
+                z-index: 1;
+            }
+            .footer{
+                position: relative;
+                height: 230vh;
+                background-color: #004d42;
+            }
+            .footer>.extract{
+                position: absolute;
+                top: 5vh;
+               left: 7vw;
+                display: flex;
+                flex-direction: column;
+                gap: 50vh;
+            }
+            .footer>.extract>.quick-links>ul{
+                list-style: none;
+                line-height: 40px;
+            }
+            .footer>.extract>.quick-links>ul>li>a{
+                text-decoration: none;
+                color: #fff;
+            }
+            .footer>.extract>.social>ul{
+                list-style: none;
+                line-height: 40px;
+            }
+            .footer>.extract>.social>ul>li>a{
+                text-decoration: none;
+                color: #fff;
+            }
+            .footer>.extract>.top{
+                margin-top: -10vh;
+                margin-left: -2vw;
+            }
+            .footer>.extract>.top>ul{
+                list-style: none;
+                line-height: 40px;
+            }
+            .footer>.extract>.top>ul>li>a{
+                text-decoration: none;
+                color: #fff;
+            }
+            .footer>.extract>.location{
+                margin-top: 10vh;
+            }
+            .footer>.extract>.location>ul{
+                list-style: none;
+                line-height: 40px;
+            }
+            .footer>.extract>.location>ul>li>a{
+                text-decoration: none;
+                color: #fff;
+            }
+            .footer>.footer-imp{
+                position: absolute;
+                top: 220vh;
+                background-color: #000;
+                height: 9.75vh;
+                width: 100%;
+            }
+            .footer>.footer-imp>p{
+                margin-top: 2vh;
+                text-align: center;
+                color: #ffff;
+            }
+        } 
+
+@media (device-width:768px) and (device-height:723px){
+    header>ul{
+        left: 20vw;
+    }
+    .begin{
+        width: 150%;
+    }
+    .header-2{
+        top: 30vh;
+        left: -70vw;
+    }
+    .begin>.father>.box{
+        width: 135%;
+    }
+    .begin>.father>.box>.inputs>form>.what-1>input{
+        width: 140px;
+        height: 40px;
+    }
+    .begin>.father>.box>.inputs>form>.what>select{
+        width: 140px;
+        height: 40px;
+    }
+    .begin>.father>.box>.inputs>form>.what-2>select{
+        width: 140px;
+        height: 40px;
+    }
+    .begin>.father>.box>.inputs>form>.what-3>.todo>input{
+        width: 140px;
+        height: 40px;
+    }
+    .begin>.father>.box>.inputs>form>.what-3>.todo>select{
+        width: 50px;
+        height: 35px;
+    }
+    .begin>.father>.box>.inputs>form>.submit>button{
+        width: 140px;
+        height: 40px;
+    }
+    .begin>.father{
+     left: 40vw;
+    }
+    .begin>.father>.heading>h1{
+        margin-left: 15vw;
+    }
+    .begin>.father>.box{
+        margin-left: -23vw;
+    }
+    .begin>.father>.float{
+        margin-left: -15vw;
+    }
+    .begin>.father>.heading{
+        margin-left: 2vw;
+    }
+    .begin-1>.troe{
+        width: 120%;
+    }
+    .begin-1>a>button{
+        left: 63.5vw;
+    }
+    .purchase{
+        width: 150%;
+        height: 120vh;
+    }
+    .purchase>.moon>.box-1{
+        width: 85%;
+        height:67vh;
+        top: 20vh;
+        left: 25%;
+    }
+    .purchase>.moon>.box-1>.inputs-1>form>.sumbit{
+        margin-left: 20vw;
+    }
+    .footer{
+        width: 150%;
+    }
+}
+/*Responsiveness for devices starts now*/
+@media (device-width:360px) and (min-device-height:590px) and (max-device-height:630px){
+    .begin>.father>.float{
+        margin-left: -5.75vw;
+    }  
+    .begin>.father>.box{
+        margin-left: -2.5vw;
+      }
+      .begin-1{
+        height: 275vh;
+      }
+      .begin-1>a>button{
+        top: 260vh;
+        left: 22.5vw;
+    }
+    .footer{
+        height: 165vh;
+    }
+    .footer>.footer-imp{
+        top: 155vh;
+    }
+}
+
+
+@media (device-width:360px) and (device-height:720px){
+    .begin{
+        height: 160vh;
+    }
+    .begin>.father>.heading>h1{
+        margin-left: 6vw;
+    }
+    .begin>.father>.heading>h2{
+        margin-left: -3vw;
+    }
+    .begin>.father>.float{
+        margin-left: -2vw;
+    }  
+    .begin>.father>.float>button{
+        width: 95px;
+    }
+    .begin>.father>.box{
+        margin-left: -0.5vw;
+        height: 70vh;
+    }
+    .begin-1{
+        height: 235vh;
+    }
+    .begin-1>a>button{
+        top: 220vh;
+        left: 22.5vw;
+    }
+    .purchase{
+        height: 150vh;
+    }
+    .purchase>.moon>.box-1{
+    height: 100vh;
+    }
+    .footer{
+        height: 145vh;
+    }
+    .footer>.footer-imp{
+        top: 135vh;    
+    }
+}
+
+@media (device-width:320px) and (device-height:658px){
+    .begin-1{
+        height: 255vh;
+    }
+    .begin-1>a>button{
+        top: 240vh;
+        left: 15vw;
+    }
+    .purchase{
+        height: 160vh;
+    }
+    .purchase>.moon>.box-1{
+    height: 115vh;
+    }
+    .footer{
+        height: 155vh;
+    }
+    .footer>.footer-imp{
+        top: 145vh;
+    }
+}
+@media (device-width:375px) and (device-height:667px){
+    .begin{
+        height: 160vh;
+    }
+    .begin>.father>.box{
+        height: 75vh;
+    }
+    .begin-1{
+        height: 250vh;
+    }
+    .begin-1>a>button{
+        top: 235vh;
+        left: 20vw;
+    }
+    .purchase{
+        height: 160vh;
+    }
+    .purchase>.moon>.box-1{
+    height: 115vh;
+    }
+}
+
+
+
+
+@media (device-width:360px) and (device-height:740px){
+    .begin{
+        height: 160vh;
+    }
+    .begin>.father>.heading>h1{ 
+        margin-left: 8vw;
+    }
+    .begin>.father>.heading{
+        margin: 20vh auto;
+    }
+    /*.begin>.father>.heading>h2{
+        margin-left: -3vw;
+    }*/
+    .begin>.father>.float{
+        margin:10vh auto;
+    }  
+    .begin>.father>.float>button{
+        width: 95px;
+    }
+    .begin>.father>.box{
+        margin: -73.5px auto;
+        height: 70vh;
+    }
+    .begin-1{
+        height: 235vh;
+    }
+    .begin-1>a>button{
+        top: 220vh;
+        left: 22.5vw;
+    }
+    .purchase{
+        height: 150vh;
+    }
+    .purchase>.moon>.box-1{
+    height: 100vh;
+    }
+    .footer{
+        height: 145vh;
+    }
+    .footer>.footer-imp{
+        top: 135vh;    
+    }
+}
+
+
+@media (device-width:414px) and (device-height:896px){
+    .begin{
+        height: 150vh;
+    }
+    .purchase{
+        height: 135vh;
+    }
+    .purchase>.moon>.box-1{
+        height: 90vh;
+    }
+    .footer{
+        height: 115vh;
+    }
+    .footer>.footer-imp{
+        top: 105vh;
+    }
+}
+
+@media (device-width:390px) and (device-height:844px){
+    .begin{
+        height: 150vh;
+    }
+    .begin>.father>.heading>h1{
+        margin-left: 6.5vw;
+    }
+    .begin>.father>.heading>h2{
+        margin-left: -4vw;
+    }
+    .begin>.father>.box{
+        height: 65vh;
+        margin-left: -3vw;
+    }
+    .begin>.father>.float{
+        margin-left: -7vw;
+    }
+    .begin>.father>.float>button{
+     width: 108px;
+    }
+    .begin-1{
+        height: 210vh;
+    }
+    .begin-1>a>button{
+        top: 195vh;
+        left: 20vw;
+    }
+    .purchase{
+        height: 135vh;
+    }
+    .purchase>.moon>.box-1{
+    height: 95vh;
+    }
+    .footer{
+        height: 125vh;
+    }
+    .footer>.footer-imp{
+        top: 115vh;
+    }
+}
+
+@media (device-width:430px) and (device-height:932px){
+    .header-2{
+        margin-left: 5vw;
+    }
+    .begin{
+        height: 140vh;
+    }
+    .begin>.father>.heading>h1{
+        margin-left: 12vw;
+    }
+    .begin>.father>.heading>h2{
+        margin-left: 0vw;
+    }
+    .begin>.father>.box{
+        height: 60vh;
+        margin-left: 0vw;
+    }
+    .begin>.father>.float{
+        margin-left: 0vw;
+    }
+    .begin>.father>.float>button{
+     width: 108px;
+    }
+    .begin-1{
+        height: 195vh;
+    }
+    .begin-1>a>button{
+        top: 180vh;
+        left: 20vw;
+    }
+    .purchase{
+        height: 125vh;
+    }
+    .purchase>.moon>.box-1{
+    height: 90vh;
+    }
+    .footer{
+        height: 125vh;
+    }
+    .footer>.extract{
+        gap: 30vh;
+    }
+    .footer>.extract>.location{
+        margin-top: -10vh;
+    }
+    .footer>.footer-imp{
+        top: 115vh;
+    }
+}
+
+
+@media (device-width:412px) and (device-height:915px){
+    .header-2{
+        margin-left: 3vw;
+    }
+    .begin{
+        height: 140vh;
+    }
+    .begin>.father>.heading>h1{
+        margin-left: 12vw;
+    }
+    .begin>.father>.heading>h2{
+        margin-left: 0vw;
+    }
+    .begin>.father>.box{
+        height: 60vh;
+        margin-left: 0vw;
+    }
+    .begin>.father>.float{
+        margin-left: 0vw;
+    }
+    .begin>.father>.float>button{
+     width: 108px;
+    }
+    .begin-1{
+        height: 195vh;
+    }
+    .begin-1>a>button{
+        top: 180vh;
+        left: 20vw;
+    }
+    .purchase{
+        height: 125vh;
+    }
+    .purchase>.moon>.box-1{
+    height: 90vh;
+    }
+    .footer{
+        height: 125vh;
+    }
+    .footer>.extract{
+        gap: 30vh;
+    }
+    .footer>.extract>.location{
+        margin-top: -10vh;
+    }
+    .footer>.footer-imp{
+        top: 115vh;
+    }
+}
+
+
+@media (device-width:414px) and (device-height:736px){
+    .begin{
+        height: 160vh;
+    }
+    .begin>.father>.heading>h1{
+        margin-left: vw;
+    }
+    .begin>.father>.heading>h2{
+        margin-left: vw;
+    }
+    .begin>.father>.float{
+        margin-left: vw;
+    }  
+    .begin>.father>.float>button{
+        width: px;
+    }
+    .begin>.father>.box{
+        margin-left: vw;
+        height: 70vh;
+    }
+    .begin-1{
+        height: 235vh;
+    }
+    .begin-1>a>button{
+        top: 220vh;
+        left: vw;
+    }
+    .purchase{
+        height: 150vh;
+    }
+    .purchase>.moon>.box-1{
+    height: 100vh;
+    }
+    .footer{
+        height: 145vh;
+    }
+    .footer>.footer-imp{
+        top: 135vh;    
+    }
+}

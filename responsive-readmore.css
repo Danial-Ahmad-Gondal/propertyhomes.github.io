@@ -1,0 +1,1245 @@
+@media (max-width:320px){
+    header>.unorder-list{
+        display: none;
+    }
+header>.fa-bars{
+    display: block;
+    cursor: pointer;
+    margin-left: 35vw;
+}
+header>.fa-times{
+    cursor: pointer;
+    margin-left: 35vw;
+}
+header{
+    position: absolute;
+    width: 100%;
+    height: 13vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    transition: 0.6s;    
+    z-index: 100000;
+    border-bottom: 1px solid gainsboro;
+    background-color: #004d42;
+}
+header>.order-list{
+    display: none;
+}
+header>.unorder-list{
+    display: none;
+}
+.begin{
+    position: relative;
+    height:315vh;
+    width: 100%;
+}
+.begin>.style{
+    position: absolute;
+    top: 300vh;
+    left: 25vw;
+}
+.begin>.style>h5{
+    font-size: 20px;
+    position: relative;
+}
+.begin>.style>h5::before{
+    content: "";
+    width: 60px;
+    height: 2px;
+    display: block;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: -20vw;
+}
+.begin>.style>h5::after{
+    content: "";
+    width: 60px;
+    height: 2px;
+    display: block;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    right: -20vw;
+}
+.check {
+    position: relative;
+    height: 650vh;
+  }
+  .check > .slider-container {
+    position: absolute;
+    top: 5vh;
+    left: 4vw;
+    width: 90%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+  .check > .heading {
+    position: absolute;
+    top:0;
+    font-size: 15px;
+    left: 4vw;
+    color: #000; /* Change text color to make it visible on the dark background */ /* Adjust the font size as needed */
+  }
+  .check > .matchup {
+    position: absolute;
+    top: 140vh;
+    left: 4vw;
+    width: 90%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: #000;
+}
+.check > .heading-1 {
+    position: absolute;
+    top: 100vh;
+    font-size: 15px;
+    left: 4vw;
+    color: #000;
+}
+.more-image{
+    width: 100%;
+    height:325.5px;
+    object-fit:cover;
+  }
+  .check > .doup {
+    position: absolute;
+    top: 250vh;
+    left: 4vw;
+    width: 90%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: #000;
+}
+.lore-image{
+    width: 100%;
+    object-fit:cover;
+  }
+.check > .heading-2 {
+    position: absolute;
+    top: 210vh;
+    font-size: 15px;
+    left: 4vw;
+    color: #000;
+}
+.check > .doun {
+    position: absolute;
+    top: 350vh;
+    left: 4vw;
+    width: 90%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: #000;
+}
+.tore-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.check > .heading-3 {
+    position: absolute;
+    top: 315vh;
+    font-size: 15px;
+    left: 4vw;
+    color: #000;
+}
+.check > .dout {
+    position: absolute;
+    top: 455vh;
+    left: 4vw;
+    width: 90%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: #000;
+}
+.pore-image{
+    width: 100%;
+    height:325.5px;
+    object-fit: cover;
+}
+.check > .heading-4 {
+    position: absolute;
+    top: 417vh;
+    font-size: 15px;
+    left: 4vw;
+    color: #000;
+}
+.check > .douw {
+    position: absolute;
+    top: 565vh;
+    left: 4vw;
+    width: 90%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: #000;
+}
+.jore-image{
+    width: 100%;
+    height: 325.5px;
+    object-fit: cover;
+}
+.check > .heading-5 {
+    position: absolute;
+    top: 525vh;
+    font-size: 15px;
+    left: 4vw;
+    color: #000;
+}
+.footer{
+    position: relative;
+    height: 175vh;
+    background-color: #004d42;
+}
+.footer>.extract{
+    position: absolute;
+    top: 5vh;
+   left: 7vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70vw;
+}
+.footer>.extract>.quick-links>ul{
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.quick-links>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.extract>.social>ul{
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.social>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.extract>.top{
+    margin-top: -10vh;
+    margin-left: -2vw;
+}
+.footer>.extract>.top>ul{
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.top>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.extract>.location{
+    margin-top: -13vh;
+}
+.footer>.extract>.location>ul{
+    list-style: none;
+    line-height: 40px;
+}
+.footer>.extract>.location>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer>.footer-imp{
+    position: absolute;
+    top: 165vh;
+    height: 9.75vh;
+    width: 100%;
+}
+.footer>.footer-imp>p{
+    margin-top: 0vh;
+    text-align: center;
+    color: #ffff;
+}
+}
+
+/*ab jab jheight tang kare gi to ye to hoga naa*/
+
+/*Ab mai kia kar sakta hu yaar*/ 
+       /*-------------------Max width 375px par aisa nazar aye ga-----------------------*/
+       @media (min-width:321px) and (max-width:375px){
+        header>.unorder-list{
+            display: none;
+        }
+    header>.fa-bars{
+        display: block;
+        cursor: pointer;
+        margin-left: 35vw;
+    }
+    header>.fa-times{
+        cursor: pointer;
+        margin-left: 35vw;
+    }
+    header{
+        position: absolute;
+        width: 100%;
+        height: 13vh;
+        top: 0;
+        left: 0;
+        display: flex;
+        gap: 1vw;
+        align-items: center;
+        transition: 0.6s;    
+        z-index: 100000;
+        border-bottom: 1px solid gainsboro;
+        background-color: #004d42;
+    }
+    header>.order-list{
+        display: none;
+    }
+    header>.unorder-list{
+        display: none;
+    }
+    .begin{
+        position: relative;
+        height:300vh;
+        width: 100%;
+    }
+    .begin>.style{
+        position: absolute;
+        top: 250vh;
+        left: 25vw;
+    }
+    .begin>.style>h5{
+        font-size: 20px;
+        position: relative;
+    }
+    .begin>.style>h5::before{
+        content: "";
+        width: 60px;
+        height: 2px;
+        display: block;
+        background-color: black;
+        position: absolute;
+        top: 50%;
+        left: -20vw;
+    }
+    .begin>.style>h5::after{
+        content: "";
+        width: 60px;
+        height: 2px;
+        display: block;
+        background-color: black;
+        position: absolute;
+        top: 50%;
+        right: -20vw;
+    }
+    .check {
+        position: relative;
+        height: 650vh;
+      }
+      .check > .slider-container {
+        position: absolute;
+        top: 5vh;
+        left: 4vw;
+        width: 90%;
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+      }
+      .check > .heading {
+        position: absolute;
+        top:0;
+        font-size: 15px;
+        left: 4vw;
+        color: #000; /* Change text color to make it visible on the dark background */ /* Adjust the font size as needed */
+      }
+      .check > .matchup {
+        position: absolute;
+        top: 140vh;
+        left: 4vw;
+        width: 90%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        background-color: #000;
+    }
+    .check > .heading-1 {
+        position: absolute;
+        top: 100vh;
+        font-size: 15px;
+        left: 4vw;
+        color: #000;
+    }
+    .more-image{
+        width: 100%;
+        height:325.5px;
+        object-fit:cover;
+      }
+      .check > .doup {
+        position: absolute;
+        top: 250vh;
+        left: 4vw;
+        width: 90%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        background-color: #000;
+    }
+    .lore-image{
+        width: 100%;
+        object-fit:cover;
+      }
+    .check > .heading-2 {
+        position: absolute;
+        top: 210vh;
+        font-size: 15px;
+        left: 4vw;
+        color: #000;
+    }
+    .check > .doun {
+        position: absolute;
+        top: 350vh;
+        left: 4vw;
+        width: 90%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        background-color: #000;
+    }
+    .tore-image{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .check > .heading-3 {
+        position: absolute;
+        top: 315vh;
+        font-size: 15px;
+        left: 4vw;
+        color: #000;
+    }
+    .check > .dout {
+        position: absolute;
+        top: 455vh;
+        left: 4vw;
+        width: 90%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        background-color: #000;
+    }
+    .pore-image{
+        width: 100%;
+        height:325.5px;
+        object-fit: cover;
+    }
+    .check > .heading-4 {
+        position: absolute;
+        top: 417vh;
+        font-size: 15px;
+        left: 4vw;
+        color: #000;
+    }
+    .check > .douw {
+        position: absolute;
+        top: 565vh;
+        left: 4vw;
+        width: 90%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        background-color: #000;
+    }
+    .jore-image{
+        width: 100%;
+        height: 325.5px;
+        object-fit: cover;
+    }
+    .check > .heading-5 {
+        position: absolute;
+        top: 525vh;
+        font-size: 15px;
+        left: 4vw;
+        color: #000;
+    }
+    .footer{
+        position: relative;
+        height: 175vh;
+        background-color: #004d42;
+    }
+    .footer>.extract{
+        position: absolute;
+        top: 5vh;
+       left: 7vw;
+        display: flex;
+        flex-direction: column;
+        gap: 40vh;
+    }
+    .footer>.extract>.quick-links>ul{
+        list-style: none;
+        line-height: 40px;
+    }
+    .footer>.extract>.quick-links>ul>li>a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .footer>.extract>.social>ul{
+        list-style: none;
+        line-height: 40px;
+    }
+    .footer>.extract>.social>ul>li>a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .footer>.extract>.top{
+        margin-top: -10vh;
+        margin-left: -2vw;
+    }
+    .footer>.extract>.top>ul{
+        list-style: none;
+        line-height: 40px;
+    }
+    .footer>.extract>.top>ul>li>a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .footer>.extract>.location{
+        margin-top: -10vh;
+    }
+    .footer>.extract>.location>ul{
+        list-style: none;
+        line-height: 40px;
+    }
+    .footer>.extract>.location>ul>li>a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .footer>.footer-imp{
+        position: absolute;
+        top: 165vh;
+        height: 9.75vh;
+        width: 100%;
+    }
+    .footer>.footer-imp>p{
+        margin-top: 2vh;
+        text-align: center;
+        color: #ffff;
+    }
+    }
+    /*-------------------------Agr screen 425px ho to asia nazar aye na---------------------*/
+    @media (min-width:376px) and (max-width:425px){
+        header>.unorder-list{
+            display: none;
+        }
+    header>.fa-bars{
+        display: block;
+        cursor: pointer;
+        margin-left: 35vw;
+    }
+    header>.fa-times{
+        cursor: pointer;
+        margin-left: 35vw;
+    }
+    header{
+        position: absolute;
+        width: 100%;
+        height: 13vh;
+        top: 0;
+        left: 0;
+        display: flex;
+        gap: 1vw;
+        align-items: center;
+        transition: 0.6s;    
+        z-index: 100000;
+        border-bottom: 1px solid gainsboro;
+        background-color: #004d42;
+    }
+    header>.order-list{
+        display: none;
+    }
+    header>.unorder-list{
+        display: none;
+    }
+    .begin{
+        position: relative;
+        height:260vh;
+        width: 100%;
+    }
+    .begin>.style{
+        position: absolute;
+        top: 230vh;
+        left: 27vw;
+    }
+    .begin>.style>h5{
+        font-size: 20px;
+        position: relative;
+    }
+    .begin>.style>h5::before{
+        content: "";
+        width: 70px;
+        height: 2px;
+        display: block;
+        background-color: black;
+        position: absolute;
+        top: 50%;
+        left: -20vw;
+    }
+    .begin>.style>h5::after{
+        content: "";
+        width: 70px;
+        height: 2px;
+        display: block;
+        background-color: black;
+        position: absolute;
+        top: 50%;
+        right: -20vw;
+    }
+    .check {
+        position: relative;
+        height: 650vh;
+      }
+      .check > .slider-container {
+        position: absolute;
+        top: 5vh;
+        left: 4vw;
+        width: 90%;
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+      }
+      .check > .heading {
+        position: absolute;
+        top:0;
+        font-size: 15px;
+        left: 4vw;
+        color: #000; /* Change text color to make it visible on the dark background */ /* Adjust the font size as needed */
+      }
+      .check > .matchup {
+        position: absolute;
+        top: 140vh;
+        left: 4vw;
+        width: 90%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        background-color: #000;
+    }
+    .check > .heading-1 {
+        position: absolute;
+        top: 100vh;
+        font-size: 15px;
+        left: 4vw;
+        color: #000;
+    }
+    .more-image{
+        width: 100%;
+        height:325.5px;
+        object-fit:cover;
+      }
+      .check > .doup {
+        position: absolute;
+        top: 250vh;
+        left: 4vw;
+        width: 90%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        background-color: #000;
+    }
+    .lore-image{
+        width: 100%;
+        object-fit:cover;
+      }
+    .check > .heading-2 {
+        position: absolute;
+        top: 210vh;
+        font-size: 15px;
+        left: 4vw;
+        color: #000;
+    }
+    .check > .doun {
+        position: absolute;
+        top: 350vh;
+        left: 4vw;
+        width: 90%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        background-color: #000;
+    }
+    .tore-image{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .check > .heading-3 {
+        position: absolute;
+        top: 315vh;
+        font-size: 15px;
+        left: 4vw;
+        color: #000;
+    }
+    .check > .dout {
+        position: absolute;
+        top: 455vh;
+        left: 4vw;
+        width: 90%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        background-color: #000;
+    }
+    .pore-image{
+        width: 100%;
+        height:325.5px;
+        object-fit: cover;
+    }
+    .check > .heading-4 {
+        position: absolute;
+        top: 417vh;
+        font-size: 15px;
+        left: 4vw;
+        color: #000;
+    }
+    .check > .douw {
+        position: absolute;
+        top: 565vh;
+        left: 4vw;
+        width: 90%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        background-color: #000;
+    }
+    .jore-image{
+        width: 100%;
+        height: 325.5px;
+        object-fit: cover;
+    }
+    .check > .heading-5 {
+        position: absolute;
+        top: 525vh;
+        font-size: 15px;
+        left: 4vw;
+        color: #000;
+    }
+    .footer{
+        position: relative;
+        height: 175vh;
+        background-color: #004d42;
+    }
+    .footer>.extract{
+        position: absolute;
+        top: 5vh;
+       left: 7vw;
+        display: flex;
+        flex-direction: column;
+        gap: 40vh;
+    }
+    .footer>.extract>.quick-links>ul{
+        list-style: none;
+        line-height: 40px;
+    }
+    .footer>.extract>.quick-links>ul>li>a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .footer>.extract>.social>ul{
+        list-style: none;
+        line-height: 40px;
+    }
+    .footer>.extract>.social>ul>li>a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .footer>.extract>.top{
+        margin-top: -10vh;
+        margin-left: -2vw;
+    }
+    .footer>.extract>.top>ul{
+        list-style: none;
+        line-height: 40px;
+    }
+    .footer>.extract>.top>ul>li>a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .footer>.extract>.location{
+        margin-top: -10vh;
+    }
+    .footer>.extract>.location>ul{
+        list-style: none;
+        line-height: 40px;
+    }
+    .footer>.extract>.location>ul>li>a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .footer>.footer-imp{
+        position: absolute;
+        top: 165vh;        height: 9.75vh;
+        width: 100%;
+    }
+    .footer>.footer-imp>p{
+        margin-top: 2vh;
+        text-align: center;
+        color: #ffff;
+    }
+    }
+
+    /*--------------------Agr max width 426-480 kai darmyan hogi to ye hoga na------------------*/   
+    @media (min-width:426px) and (max-width:480px){
+        header>.unorder-list{
+            display: none;
+        }
+    header>.fa-bars{
+        display: block;
+        cursor: pointer;
+        margin-left: 35vw;
+    }
+    header>.fa-times{
+        cursor: pointer;
+        margin-left: 35vw;
+    }
+    header{
+        position: absolute;
+        width: 100%;
+        height: 13vh;
+        top: 0;
+        left: 0;
+        display: flex;
+        gap: 1vw;
+        align-items: center;
+        transition: 0.6s;    
+        z-index: 100000;
+        border-bottom: 1px solid gainsboro;
+        background-color: #004d42;
+    }
+    header>.order-list{
+        display: none;
+    }
+    header>.unorder-list{
+        display: none;
+    }
+    .begin{
+        position: relative;
+        height:260vh;
+        width: 100%;
+    }
+    .begin>.style{
+        position: absolute;
+        top: 230vh;
+        left: 27vw;
+    }
+    .begin>.style>h5{
+        font-size: 20px;
+        position: relative;
+    }
+    .begin>.style>h5::before{
+        content: "";
+        width: 70px;
+        height: 2px;
+        display: block;
+        background-color: black;
+        position: absolute;
+        top: 50%;
+        left: -20vw;
+    }
+    .begin>.style>h5::after{
+        content: "";
+        width: 70px;
+        height: 2px;
+        display: block;
+        background-color: black;
+        position: absolute;
+        top: 50%;
+        right: -20vw;
+    }
+    .check {
+        position: relative;
+        height: 650vh;
+      }
+      .check > .slider-container {
+        position: absolute;
+        top: 5vh;
+        left: 4vw;
+        width: 90%;
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+      }
+      .check > .heading {
+        position: absolute;
+        top:0;
+        font-size: 15px;
+        left: 4vw;
+        color: #000; /* Change text color to make it visible on the dark background */ /* Adjust the font size as needed */
+      }
+      .check > .matchup {
+        position: absolute;
+        top: 140vh;
+        left: 4vw;
+        width: 90%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        background-color: #000;
+    }
+    .check > .heading-1 {
+        position: absolute;
+        top: 100vh;
+        font-size: 15px;
+        left: 4vw;
+        color: #000;
+    }
+    .more-image{
+        width: 100%;
+        height:325.5px;
+        object-fit:cover;
+      }
+      .check > .doup {
+        position: absolute;
+        top: 250vh;
+        left: 4vw;
+        width: 90%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        background-color: #000;
+    }
+    .lore-image{
+        width: 100%;
+        object-fit:cover;
+      }
+    .check > .heading-2 {
+        position: absolute;
+        top: 210vh;
+        font-size: 15px;
+        left: 4vw;
+        color: #000;
+    }
+    .check > .doun {
+        position: absolute;
+        top: 350vh;
+        left: 4vw;
+        width: 90%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        background-color: #000;
+    }
+    .tore-image{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .check > .heading-3 {
+        position: absolute;
+        top: 315vh;
+        font-size: 15px;
+        left: 4vw;
+        color: #000;
+    }
+    .check > .dout {
+        position: absolute;
+        top: 455vh;
+        left: 4vw;
+        width: 90%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        background-color: #000;
+    }
+    .pore-image{
+        width: 100%;
+        height:325.5px;
+        object-fit: cover;
+    }
+    .check > .heading-4 {
+        position: absolute;
+        top: 417vh;
+        font-size: 15px;
+        left: 4vw;
+        color: #000;
+    }
+    .check > .douw {
+        position: absolute;
+        top: 565vh;
+        left: 4vw;
+        width: 90%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        background-color: #000;
+    }
+    .jore-image{
+        width: 100%;
+        height: 325.5px;
+        object-fit: cover;
+    }
+    .check > .heading-5 {
+        position: absolute;
+        top: 525vh;
+        font-size: 15px;
+        left: 4vw;
+        color: #000;
+    }
+    .footer{
+        position: relative;
+        height: 230vh;
+        background-color: #004d42;
+    }
+    .footer>.extract{
+        position: absolute;
+        top: 5vh;
+       left: 7vw;
+        display: flex;
+        flex-direction: column;
+        gap: 55vh;
+    }
+    .footer>.extract>.quick-links>ul{
+        list-style: none;
+        line-height: 40px;
+    }
+    .footer>.extract>.quick-links>ul>li>a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .footer>.extract>.social>ul{
+        list-style: none;
+        line-height: 40px;
+    }
+    .footer>.extract>.social>ul>li>a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .footer>.extract>.top{
+        margin-top: -10vh;
+        margin-left: -2vw;
+    }
+    .footer>.extract>.top>ul{
+        list-style: none;
+        line-height: 40px;
+    }
+    .footer>.extract>.top>ul>li>a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .footer>.extract>.location{
+        margin-top: 10vh;
+    }
+    .footer>.extract>.location>ul{
+        list-style: none;
+        line-height: 40px;
+    }
+    .footer>.extract>.location>ul>li>a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .footer>.footer-imp{
+        position: absolute;
+        top: 220vh;
+        height: 9.75vh;
+        width: 100%;
+    }
+    .footer>.footer-imp>p{
+        margin-top: 2vh;
+        text-align: center;
+        color: #ffff;
+    }
+    }
+
+    @media (device-width:360px) and (min-device-height:590px) and (max-device-height:630px){
+        .begin{
+            height: 250vh;
+        }
+        .begin>.style{
+            top: 230vh;
+            left: 28vw;
+        }
+    .check{
+        height: 640vh;
+    }
+    }
+
+@media (device-width:320px) and (device-height:658px){
+    .begin{
+        height: 270vh;
+    }
+    .begin>.style{
+        top: 255vh;
+    }
+    .footer{
+        height: 155vh;
+    }
+    .footer>.footer-imp{
+        top: 145vh;
+    }
+}
+
+
+
+    @media (device-width:360px) and (device-height:720px){
+        .begin{
+            height: 220vh;
+        }
+        .begin>.style{
+            top: 200vh;
+        }
+        .footer{
+            height: 160vh;
+        }
+        .footer>.footer-imp{
+            top: 150vh;
+        }
+    }
+
+
+
+    @media (device-width:360px) and (device-height:740px){
+        .begin{
+            height: 220vh;
+        }
+        .begin>.style{
+            top: 200vh;
+        }
+        .footer{
+            height: 160vh;
+        }
+        .footer>.footer-imp{
+            top: 150vh;
+        }
+    }
+
+
+    @media (device-width:375px) and (device-height:667px){
+        .begin{
+            height: 225vh;
+        }
+        .begin>.style{
+            top: 210vh;
+        }
+        .check{
+            height: 630vh;
+        }
+        .footer{
+            height: 160vh;
+        }
+        .footer>.footer-imp{
+            top: 150vh;
+        }
+    }
+
+    @media (device-width:414px) and (device-height:896px){
+        .begin{
+            height: 175vh;
+        }
+        .begin>.style{
+            top: 160vh;
+        }
+        .check{
+            height: 630vh;
+        }
+        .footer{
+            height: 130vh;
+        }
+        .footer>.extract{
+            gap: 30vh;
+        }
+        .footer>.footer-imp{
+            top: 120vh;
+        }
+    }
+
+
+    @media (device-width:390px) and (device-height:844px){
+        .begin{
+            height: 185vh;
+        }
+        .begin>.style{
+            top: 165vh;
+        }
+        .check{
+            height: 630vh;
+        }
+        .footer{
+            height: 130vh;
+        }
+        .footer>.extract{
+            gap: 30vh;
+        }
+        .footer>.footer-imp{
+            top: 120vh;
+        }
+    }
+
+
+    @media (device-width:430px) and (device-height:932px){
+        .begin{
+            height: 185vh;
+        }
+        .begin>.style{
+            top: 155vh;
+        }
+        .check{
+            height: 630vh;
+        }
+        .footer{
+            height: 125vh;
+        }
+        .footer>.extract{
+            gap: 30vh;
+        }
+        .footer>.extract>.location{
+            margin-top: -10vh;
+        }
+        .footer>.footer-imp{
+            top: 115vh;
+        }
+    }
+
+
+    @media (device-width:412px) and (device-height:915px){
+        .begin{
+            height: 185vh;
+        }
+        .begin>.style{
+            top: 155vh;
+        }
+        .check{
+            height: 630vh;
+        }
+        .footer{
+            height: 125vh;
+        }
+        .footer>.extract{
+            gap: 30vh;
+        }
+        .footer>.extract>.location{
+            margin-top: -10vh;
+        }
+        .footer>.footer-imp{
+            top: 115vh;
+        }
+    }

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevate Homes -- Real Estate Dubai</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="property.css">
+    <link rel="stylesheet" href="responsive-property.css">
+</head>
+<body>
+    <!--Stylish attribute for website-->
+    <div id="loading-screen" class="hidden">
+        <div class="loading-animation">
+            <h2 class="tree">Welcome To</h2>
+            <h1 class="flower">Elevate Homes</h1> <br><br><br>
+<h1 class="fruit">A New Era To Dubai Real Estate</h1>
+        </div>
+    </div>
+    <!--Which ends here-->
+    <!--Chat GPT POP UP FORM-->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close" id="close-popup">&times;</span>
+            <h2>Contact Us</h2>
+            <form id="popup-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                  
+                <label for="telephone">Phone No:</label>
+                 <input type="tel" id="telephone" name="telephone">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+    
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    
+<!--And it Is Ending HERE-->
+<header id="navbar" class="navbar">
+    <a href="property.html">
+        <img class="photo" src="images/only-logo-removebg-preview.png" alt="done" style="width: 9vw; height: 18vh; margin-left: 5vw;">
+    </a>
+    <i class="fa-solid fa-bars" id="menu"></i>
+    <i class="fa-solid fa-times" id="close"></i>
+    <ul class="unorder-list">
+        <li class="pro"><a href="property.html">HOME</a></li>
+        <li class="pro-1"><a href="aboutus.html">ABOUT US</a></li>
+        <li class="pro-2"><a href="offplan-properties.html">OFF PLAN PROPERTIES</a></li>
+        <li><a href="contactus.html">CONTACT US</a></li>
+        <li class="pro-3"><a href="#">OFFERS</a></li>
+        <li><a href="#"><i class="fa-solid fa-phone-volume"></i> +971 58 950 6786</a></li>
+    </ul> 
+    <ul class="order-list" id="list">
+        <li class="pro"><a href="property-1.html">HOME</a></li>
+        <hr>
+        <li class="pro-1"><a href="aboutus.html">ABOUT US</a></li>
+        <hr>
+        <li class="pro-2"><a href="offplan-properties.html">OFF PLAN PROPERTIES</a></li>
+        <hr>
+        <li><a href="contactus.html">CONTACT US</a></li>
+        <hr>
+        <li class="pro-3"><a href="#">OFFERS</a></li>
+        <hr>
+        <li><a href="#"><i class="fa-solid fa-phone-volume"></i> +971 58 950 6786</a></li>
+    </ul>
+
+</header>
+    <header class="header-2">
+        <a href="https://instagram.com/elevate_homes_real_estate?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"> <i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100076433645502&mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="http://wa.me/+971589506786" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+    </header>
+    <section class="begin">
+        <div class="father">
+     <div class="heading">
+        <h1>Real Estate Dubai</h1>
+        <h2>Properites For Sale & Rent</h2>
+     </div>
+     <div class="float">
+        <button>All Status</button>
+        <button id="for-rent-button">For Rent</button>
+        <button id="for-sale-button">For Sale</button>
+     </div>
+     <div class="box">
+       <div class="inputs">
+        <form class="form">
+            <div class="what">
+            <p>Looking For</p>
+            <select name="select-property" id="select-property">
+                <option disabled selected value="">Property Type</option>
+                <option value="">Apartment</option>
+                <option value="">Penthouses</option>
+                <option value="">Townhouses</option>
+                <option value="">Villas</option>
+                <option value="">Commercial</option>
+                <option value="">Plots</option>
+            </select>
+        </div>
+        <div class="what-1">
+        <p>Location</p>
+        <input type="text" placeholder="All Locations" name="location" id="pata">
+        </div>
+        <div class="what-2">
+        <p>Property Size</p>
+        <select name="bedrooms" id="bedrooms">
+            <option disabled selected value="">Bedrooms</option>
+          <option value="">Studio</option>
+          <option value="">1</option>
+          <option value="">2</option>
+          <option value="">3</option>
+          <option value="">4</option>
+          <option value="">5</option>
+          <option value="">6</option>
+          <option value="">7+</option>
+        </select>
+        </div>
+        <div class="what-3">
+        <p class="wela">Your Budget</p>
+        <div class="todo" style="display: flex;">
+        <input type="text" placeholder="Max.Price" name="max-price" id="price">
+        <select id="currency" name="currency">
+            <option value="AED">AED (United Arab Emirates Dirham)</option>
+            <option value="USD">USD (United States Dollar)</option>
+        </select>
+        </div>
+        </div>
+        <div class="submit">
+            <button id="scroll-button">Search</button>
+            </div>
+         </form>
+       </div>
+     </div>
+     </div>
+     <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close" id="closeModal">&times;</span>
+          <div id="popupContent"></div>
+          <p>Please Provide Your Number</p><br>
+          <div class="phone-input-container">
+            <select id="country-code" name="country-code">
+              <option value="US">+1 (United States)</option>
+              <option value="CA">+1 (Canada)</option>
+              <option value="AE">+971(UAE)</option>
+              <option value="SA">+966(Saudi Arab)</option>
+              <!-- Add more country code options here -->
+            </select>
+            <input type="text" placeholder="Your Phone Number" name="phone-number" id="phone-number">
+          </div>
+          <button id="submitPopup" class="submitPopup">Submit</button>
+        </div>
+        </div>
+      </div>
+    </section>
+    <section class="begin-1">
+        <div class="expert">
+     <div class="troe">
+        <h3>Properites For Sale</h3>
+     </div>
+     <div class="bre-main">
+        <div class="bre-1">
+        <img class="penta" src="Property Photos/2.jpeg" alt="logo">
+        <p>4 bedrooms penthouse in Marina and....</p>
+        <h6>AED 7,500,000</h6>
+        </div>
+        <div class="bre-1">
+        <img class="hexa" src="Property Photos/6.jpeg" alt="lgog">
+        <p>5 bedrooms villa in Jumeirah Park and....</p>
+        <h6>AED 13,250,000</h6>
+        </div>
+        <div class="bre-1">
+        <img class="octa" src="Property Photos/7.jpeg" alt="logo">
+        <p>One bedroom Burj khalifa and with....</p>
+        <h6>AED 3,300,000</h6>
+        </div>
+     </div>
+     <div class="button">
+     <a href="read-more.html"><button>View All</button></a>
+     </div>
+     </div>
+    </section>
+    <section class="sale">
+        <div class="for">
+            <h1 style="text-align: center;">
+                OFF PLAN PROPERTIES IN DUBAI
+            </h1>
+            <div class="true">
+             <img src="Damac/important.jpg" alt="end" style="width: 100%; height: 100%;">
+            </div>
+            <div class="smart">
+                <h2 style="color:rgba(154,193,66,1);">Developer Name:<span style="color:rgba(223,202,42,1);">DAMAC DEVELOPERS</span></h2>
+                <h2 style="color:rgba(154,193,66,1);">Project Name:-<span style="color:rgba(223,202,42,1);">VOLTA BY DAMAC</span></h2>
+                <a href="damac.html"><button>READ MORE</button></a>
+            </div>
+        </div>
+    </section>
+    <section class="purchase">
+        <div class="moon">
+            <div class="head">
+                <h1>Tell Your Requirments And We Are Here To Serve You</h1>
+            </div>
+            <div class="box-1">
+                <div class="inputs-1">
+                    <form>
+                    <input type="text" placeholder="First Name*" name="fname">
+                    <input type="text" placeholder="Last Name*" name="lname">
+                    <input type="email" placeholder="E-mail*" name="email">
+                    <input type="tel" name="phone" placeholder="Phone-Number">
+                    <select name="select" id="select">
+                        <option disabled selected value="">Property Type</option>
+                        <option value="">Apartment</option>
+                        <option value="">Penthouses</option>
+                        <option value="">Townhouses</option>
+                        <option value="">Villas</option>
+                        <option value="">Commercial</option>
+                        <option value="">Plots</option>
+                    </select>
+                    <select name="selct" id="selct">
+                        <option disabled selected value="">Bedrooms</option>
+                        <option value="">Studio</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7+</option>
+                    </select>
+                    <input type="text" placeholder="Max-Price" name="more-price">
+                    <select id="currency" name="currency">
+                        <option value="AED">AED (United Arab Emirates Dirham)</option>
+                        <option value="USD">USD (United States Dollar)</option>
+                    </select>
+                    <input type="submit" class="sumbit">
+                    </form>
+                </div>
+            </div>
+            </div>
+    </section>
+    <!--Last Footer Section Be Ready-->
+    <section class="footer">
+        <div class="extract">
+            <div class="quick-links">
+                <h1>Quick Links</h1>
+                <ul>
+                    <li><a href="property.html">HOME</a></li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                    <li><a href="offplan-properties.html">OFF PLAN PROPERTIES</a></li>
+                    <li><a href="contactus.html">CONTACT US</a></li>
+                    <li><a href="#">OFFERS</a></li>
+                </ul>
+            </div>
+        <div class="social">
+            <h1>Social Links</h1>
+            <ul>
+                <li><a href="https://www.facebook.com/profile.php?id=100076433645502&mibextid=ZbWKwL">Facebook</a></li>
+                <li><a href="https://instagram.com/elevate_homes_real_estate?igshid=OGQ5ZDc2ODk2ZA==">Instagram</a></li>
+                <li><a href="http://wa.me/+971589506786" target="_blank">Whatsapp</a></li>
+            </ul>
+        </div>
+        <div class="top">
+            <h1>Top Developers In Dubai</h1>
+            <ul>
+           <li><a href="damac.html">Damac Devlopers</a></li>
+           <li><a href="samana-developers.html">Samana Devlopers</a></li>
+           <li><a href="heaven.html">Meraki Devlopers</a></li>
+           </ul>
+        </div>
+        <div class="location">
+            <h1>Our Particulars</h1>
+            <ul>
+                <li><a href="#">Muna Saeed Nasser building Al Mateena, Deira Dubai</a></li>
+                <li><a href="#">naeem.randhawa1988@gmail.com</a></li>
+            </ul>
+        </div>
+        </div>
+        <div class="footer-imp">
+            <p>
+                &copy; 2023 Elevate Homes. All Rights Reserved. 
+            </p>
+        </div>
+    </section>
+    <script src="property.js"></script>
+</body>
+</html>
