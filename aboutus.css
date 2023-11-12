@@ -102,6 +102,9 @@ header>ul>li>a{
     top: 5vh;
     left: 5vw;
 }
+.content>.content-start>p{
+    text-align:center;
+}
 .footer{
     position: relative;
     height: 60vh;
